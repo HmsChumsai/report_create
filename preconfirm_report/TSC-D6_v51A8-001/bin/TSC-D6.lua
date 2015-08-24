@@ -284,6 +284,6 @@ function dump(o)
     return tostring(o)
   end
 end
-local inst = os.getenv( "OCSINST" )
+local inst = os.getenv( "RPT_BROKER" )
 local mand = mandator.Mandator( inst )
 mandator.changeTo( mand, process )
