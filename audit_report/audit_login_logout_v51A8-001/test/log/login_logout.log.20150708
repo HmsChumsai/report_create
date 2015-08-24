@@ -1,0 +1,40 @@
+[2015/07/08 10:47:34]: Process Started
+[2015/07/08 10:47:34]: Report key 20150708104734: DECIDE param : 
+[2015/07/08 10:47:34]: 
+[2015/07/08 10:47:34]: Process Ended
+[2015/07/08 10:47:34]: Process Started
+[2015/07/08 10:47:34]: Report key 20150708104734: Start!!!!: 
+[2015/07/08 10:47:34]: Report key 20150708104734: DB File is /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/login_logout_v51A5-001/test/db/login_logout_20150708104734.db
+[2015/07/08 10:47:34]: Report key 20150708104734: Log File :/usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/login_logout_v51A5-001/test/log/login_logout.log
+[2015/07/08 10:47:34]: Report key 20150708104734: begin process
+[2015/07/08 10:47:34]: Report key 20150708104734: Before Create TB
+[2015/07/08 10:47:34]: Report key 20150708104734: After Create TB
+[2015/07/08 10:47:34]: Report key 20150708104734: /usr/local/decide/space-BKKTSC-1/bin/lua: ...space-BKKTSC-1/cfg/decide_report/etc/../util/CSVUtil.lua:3: bad argument #1 to 'open' (string expected, got nil)
+[2015/07/08 10:47:34]: Report key 20150708104734: stack traceback:
+[2015/07/08 10:47:34]: Report key 20150708104734: 	[C]: in function 'open'
+[2015/07/08 10:47:34]: Report key 20150708104734: 	...space-BKKTSC-1/cfg/decide_report/etc/../util/CSVUtil.lua:3: in function 'file_exists'
+[2015/07/08 10:47:34]: Report key 20150708104734: 	../bin/login_logout.lua:66: in function <../bin/login_logout.lua:31>
+[2015/07/08 10:47:34]: Report key 20150708104734: stack traceback:
+[2015/07/08 10:47:34]: Report key 20150708104734: 	[C]: in function 'changeTo'
+[2015/07/08 10:47:34]: Report key 20150708104734: 	../bin/login_logout.lua:110: in main chunk
+[2015/07/08 10:47:34]: Report key 20150708104734: 	[C]: in ?
+[2015/07/08 10:47:34]: 
+[2015/07/08 10:47:34]: Process Ended
+[2015/07/08 10:47:34]: Process Started
+[2015/07/08 10:47:34]: Report key 20150708104734:  DATABASE FILE   : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/login_logout_v51A5-001/test/db/login_logout_20150708104734.db 
+[2015/07/08 10:47:34]: Report key 20150708104734:  LAYOUT_FILE     : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/login_logout_v51A5-001/test/../layout/login_logout.jasper 
+[2015/07/08 10:47:34]: Report key 20150708104734:  PDF FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/login_logout_v51A5-001/test/out/login_logout_20150708104734.pdf
+[2015/07/08 10:47:34]: Report key 20150708104734:  LOG FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/login_logout_v51A5-001/test/log/login_logout.log
+[2015/07/08 10:47:34]: Report key 20150708104734: Jasper file : login_logout.jasper
+[2015/07/08 10:47:34]: Report key 20150708104734: DB file     : login_logout_20150708104734.db
+[2015/07/08 10:47:34]: Report key 20150708104734: Report type : PDF
+[2015/07/08 10:47:34]: Report key 20150708104734: Out file    : login_logout_20150708104734.pdf
+[2015/07/08 10:47:34]: Report key 20150708104734: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/08 10:47:34]: Report key 20150708104734: log4j:WARN Please initialize the log4j system properly.
+[2015/07/08 10:47:36]: 
+[2015/07/08 10:47:36]: Process Ended
+[2015/07/08 10:47:34]: Process Started
+[2015/07/08 10:47:34]: Report key 20150708104734:  RPT_FORMAT PDF 
+[2015/07/08 10:47:34]: Report key 20150708104734: 
+[2015/07/08 10:47:36]: 
+[2015/07/08 10:47:36]: Process Ended

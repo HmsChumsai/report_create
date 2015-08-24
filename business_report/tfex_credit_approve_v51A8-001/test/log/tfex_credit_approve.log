@@ -1,0 +1,210 @@
+[2015/07/14 10:29:11]: Process Started
+[2015/07/14 10:29:11]: Report key 20150714102911: DECIDE param : 
+[2015/07/14 10:29:11]: 
+[2015/07/14 10:29:11]: Process Ended
+[2015/07/14 10:29:11]: Process Started
+[2015/07/14 10:29:11]: Report key 20150714102911: Start!!!!: 
+[2015/07/14 10:29:11]: Report key 20150714102911: DB File is /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/db/tfex_credit_approve_20150714102911.db
+[2015/07/14 10:29:11]: Report key 20150714102911: Log File :/usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/log/tfex_credit_approve.log
+[2015/07/14 10:29:12]: Report key 20150714102911: begin process
+[2015/07/14 10:29:13]: 
+[2015/07/14 10:29:13]: Process Ended
+[2015/07/14 10:29:13]: Process Started
+[2015/07/14 10:29:13]: Report key 20150714102911:  DATABASE FILE   : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/db/tfex_credit_approve_20150714102911.db 
+[2015/07/14 10:29:13]: Report key 20150714102911:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/../layout/tfex_credit_approve.jasper 
+[2015/07/14 10:29:13]: Report key 20150714102911:  PDF FILE        : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/out/tfex_credit_approve_20150714102911.pdf
+[2015/07/14 10:29:13]: Report key 20150714102911:  LOG FILE        : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/log/tfex_credit_approve.log
+[2015/07/14 10:29:13]: Report key 20150714102911: Jasper file : tfex_credit_approve.jasper
+[2015/07/14 10:29:13]: Report key 20150714102911: DB file     : tfex_credit_approve_20150714102911.db
+[2015/07/14 10:29:13]: Report key 20150714102911: Report type : PDF
+[2015/07/14 10:29:13]: Report key 20150714102911: Out file    : tfex_credit_approve_20150714102911.pdf
+[2015/07/14 10:29:13]: Report key 20150714102911: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/14 10:29:13]: Report key 20150714102911: log4j:WARN Please initialize the log4j system properly.
+[2015/07/14 10:29:16]: Report key 20150714102911: net.sf.jasperreports.engine.JRException: Error preparing statement for executing the report query : 
+[2015/07/14 10:29:16]: Report key 20150714102911: 
+[2015/07/14 10:29:16]: Report key 20150714102911: SELECT * FROM ExportedOrders order by ORDERID ASC;
+[2015/07/14 10:29:16]: Report key 20150714102911: 
+[2015/07/14 10:29:16]: Report key 20150714102911: 
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createStatement(JRJdbcQueryExecuter.java:377)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:196)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.fill.JRFillDataset.createQueryDatasource(JRFillDataset.java:1087)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.fill.JRFillDataset.initDatasource(JRFillDataset.java:668)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.fill.JRBaseFiller.setParameters(JRBaseFiller.java:1258)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:877)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:822)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.fill.JRFiller.fill(JRFiller.java:61)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.JasperFillManager.fill(JasperFillManager.java:446)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.JasperFillManager.fill(JasperFillManager.java:276)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:745)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at ReportGenerator.main(ReportGenerator.java:64)
+[2015/07/14 10:29:16]: Report key 20150714102911: Caused by: java.sql.SQLException: [SQLITE_ERROR] SQL error or missing database (no such table: ExportedOrders)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at org.sqlite.DB.newSQLException(DB.java:383)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at org.sqlite.DB.newSQLException(DB.java:387)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at org.sqlite.DB.throwex(DB.java:374)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at org.sqlite.NativeDB.prepare(Native Method)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at org.sqlite.DB.prepare(DB.java:123)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at org.sqlite.PrepStmt.<init>(PrepStmt.java:42)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at org.sqlite.Conn.prepareStatement(Conn.java:404)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at org.sqlite.Conn.prepareStatement(Conn.java:399)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at org.sqlite.Conn.prepareStatement(Conn.java:383)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createStatement(JRJdbcQueryExecuter.java:267)
+[2015/07/14 10:29:16]: Report key 20150714102911: 	... 11 more
+[2015/07/14 10:29:16]: Report key 20150714102911: ERROR : Failed to create PDF file <1>
+[2015/07/14 10:29:16]: 
+[2015/07/14 10:29:16]: Process Ended
+[2015/07/14 10:29:13]: Process Started
+[2015/07/14 10:29:13]: Report key 20150714102911:  RPT_FORMAT PDF 
+[2015/07/14 10:29:13]: Report key 20150714102911: 
+[2015/07/14 10:29:16]: 
+[2015/07/14 10:29:16]: Process Ended
+[2015/07/14 10:56:21]: Process Started
+[2015/07/14 10:56:21]: Report key 20150714105621: DECIDE param : 
+[2015/07/14 10:56:21]: 
+[2015/07/14 10:56:21]: Process Ended
+[2015/07/14 10:56:21]: Process Started
+[2015/07/14 10:56:21]: Report key 20150714105621: Start!!!!: 
+[2015/07/14 10:56:21]: Report key 20150714105621: DB File is /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/db/tfex_credit_approve_20150714105621.db
+[2015/07/14 10:56:21]: Report key 20150714105621: Log File :/usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/log/tfex_credit_approve.log
+[2015/07/14 10:56:22]: Report key 20150714105621: begin process
+[2015/07/14 10:56:23]: Report key 20150714105621: sh: line 2: SQL: command not found
+[2015/07/14 10:56:23]: Report key 20150714105621: SQL Execute Error, the sql is : $(sqlite3 /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/db/tfex_credit_approve_20150714105621.db << EOF
+[2015/07/14 10:56:23]: Report key 20150714105621: INSERT INTO dummy () VALUES ();
+[2015/07/14 10:56:23]: Report key 20150714105621: EOF) 2>&1
+[2015/07/14 10:56:23]: 
+[2015/07/14 10:56:23]: Process Ended
+[2015/07/14 10:56:23]: Process Started
+[2015/07/14 10:56:23]: Report key 20150714105621:  DATABASE FILE   : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/db/tfex_credit_approve_20150714105621.db 
+[2015/07/14 10:56:23]: Report key 20150714105621:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/../layout/tfex_credit_approve.jasper 
+[2015/07/14 10:56:23]: Report key 20150714105621:  PDF FILE        : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/out/tfex_credit_approve_20150714105621.pdf
+[2015/07/14 10:56:23]: Report key 20150714105621:  LOG FILE        : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/log/tfex_credit_approve.log
+[2015/07/14 10:56:23]: Report key 20150714105621: Jasper file : tfex_credit_approve.jasper
+[2015/07/14 10:56:23]: Report key 20150714105621: DB file     : tfex_credit_approve_20150714105621.db
+[2015/07/14 10:56:23]: Report key 20150714105621: Report type : PDF
+[2015/07/14 10:56:23]: Report key 20150714105621: Out file    : tfex_credit_approve_20150714105621.pdf
+[2015/07/14 10:56:24]: Report key 20150714105621: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/14 10:56:24]: Report key 20150714105621: log4j:WARN Please initialize the log4j system properly.
+[2015/07/14 10:56:25]: Report key 20150714105621: net.sf.jasperreports.engine.JRException: Error preparing statement for executing the report query : 
+[2015/07/14 10:56:25]: Report key 20150714105621: 
+[2015/07/14 10:56:25]: Report key 20150714105621: SELECT * FROM ExportedOrders order by ORDERID ASC;
+[2015/07/14 10:56:25]: Report key 20150714105621: 
+[2015/07/14 10:56:25]: Report key 20150714105621: 
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createStatement(JRJdbcQueryExecuter.java:377)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:196)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.fill.JRFillDataset.createQueryDatasource(JRFillDataset.java:1087)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.fill.JRFillDataset.initDatasource(JRFillDataset.java:668)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.fill.JRBaseFiller.setParameters(JRBaseFiller.java:1258)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:877)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:822)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.fill.JRFiller.fill(JRFiller.java:61)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.JasperFillManager.fill(JasperFillManager.java:446)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.JasperFillManager.fill(JasperFillManager.java:276)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:745)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at ReportGenerator.main(ReportGenerator.java:64)
+[2015/07/14 10:56:25]: Report key 20150714105621: Caused by: java.sql.SQLException: [SQLITE_ERROR] SQL error or missing database (no such table: ExportedOrders)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at org.sqlite.DB.newSQLException(DB.java:383)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at org.sqlite.DB.newSQLException(DB.java:387)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at org.sqlite.DB.throwex(DB.java:374)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at org.sqlite.NativeDB.prepare(Native Method)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at org.sqlite.DB.prepare(DB.java:123)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at org.sqlite.PrepStmt.<init>(PrepStmt.java:42)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at org.sqlite.Conn.prepareStatement(Conn.java:404)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at org.sqlite.Conn.prepareStatement(Conn.java:399)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at org.sqlite.Conn.prepareStatement(Conn.java:383)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createStatement(JRJdbcQueryExecuter.java:267)
+[2015/07/14 10:56:25]: Report key 20150714105621: 	... 11 more
+[2015/07/14 10:56:25]: Report key 20150714105621: ERROR : Failed to create PDF file <1>
+[2015/07/14 10:56:25]: 
+[2015/07/14 10:56:25]: Process Ended
+[2015/07/14 10:56:23]: Process Started
+[2015/07/14 10:56:23]: Report key 20150714105621:  RPT_FORMAT PDF 
+[2015/07/14 10:56:23]: Report key 20150714105621: 
+[2015/07/14 10:56:25]: 
+[2015/07/14 10:56:25]: Process Ended
+[2015/07/14 10:59:02]: Process Started
+[2015/07/14 10:59:02]: Report key 20150714105902: DECIDE param : 
+[2015/07/14 10:59:02]: 
+[2015/07/14 10:59:02]: Process Ended
+[2015/07/14 10:59:02]: Process Started
+[2015/07/14 10:59:02]: Report key 20150714105902: Start!!!!: 
+[2015/07/14 10:59:02]: Report key 20150714105902: DB File is /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/db/tfex_credit_approve_20150714105902.db
+[2015/07/14 10:59:02]: Report key 20150714105902: Log File :/usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/log/tfex_credit_approve.log
+[2015/07/14 10:59:02]: Report key 20150714105902: begin process
+[2015/07/14 10:59:04]: 
+[2015/07/14 10:59:04]: Process Ended
+[2015/07/14 10:59:04]: Process Started
+[2015/07/14 10:59:04]: Report key 20150714105902:  DATABASE FILE   : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/db/tfex_credit_approve_20150714105902.db 
+[2015/07/14 10:59:04]: Report key 20150714105902:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/../layout/tfex_credit_approve.jasper 
+[2015/07/14 10:59:04]: Report key 20150714105902:  PDF FILE        : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/out/tfex_credit_approve_20150714105902.pdf
+[2015/07/14 10:59:04]: Report key 20150714105902:  LOG FILE        : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/log/tfex_credit_approve.log
+[2015/07/14 10:59:04]: Report key 20150714105902: Jasper file : tfex_credit_approve.jasper
+[2015/07/14 10:59:04]: Report key 20150714105902: DB file     : tfex_credit_approve_20150714105902.db
+[2015/07/14 10:59:04]: Report key 20150714105902: Report type : PDF
+[2015/07/14 10:59:04]: Report key 20150714105902: Out file    : tfex_credit_approve_20150714105902.pdf
+[2015/07/14 10:59:04]: Report key 20150714105902: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/14 10:59:04]: Report key 20150714105902: log4j:WARN Please initialize the log4j system properly.
+[2015/07/14 10:59:05]: Report key 20150714105902: net.sf.jasperreports.engine.JRException: Error preparing statement for executing the report query : 
+[2015/07/14 10:59:05]: Report key 20150714105902: 
+[2015/07/14 10:59:05]: Report key 20150714105902: SELECT * FROM ExportedOrders order by ORDERID ASC;
+[2015/07/14 10:59:05]: Report key 20150714105902: 
+[2015/07/14 10:59:05]: Report key 20150714105902: 
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createStatement(JRJdbcQueryExecuter.java:377)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:196)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.fill.JRFillDataset.createQueryDatasource(JRFillDataset.java:1087)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.fill.JRFillDataset.initDatasource(JRFillDataset.java:668)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.fill.JRBaseFiller.setParameters(JRBaseFiller.java:1258)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:877)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:822)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.fill.JRFiller.fill(JRFiller.java:61)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.JasperFillManager.fill(JasperFillManager.java:446)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.JasperFillManager.fill(JasperFillManager.java:276)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:745)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at ReportGenerator.main(ReportGenerator.java:64)
+[2015/07/14 10:59:05]: Report key 20150714105902: Caused by: java.sql.SQLException: [SQLITE_ERROR] SQL error or missing database (no such table: ExportedOrders)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at org.sqlite.DB.newSQLException(DB.java:383)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at org.sqlite.DB.newSQLException(DB.java:387)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at org.sqlite.DB.throwex(DB.java:374)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at org.sqlite.NativeDB.prepare(Native Method)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at org.sqlite.DB.prepare(DB.java:123)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at org.sqlite.PrepStmt.<init>(PrepStmt.java:42)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at org.sqlite.Conn.prepareStatement(Conn.java:404)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at org.sqlite.Conn.prepareStatement(Conn.java:399)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at org.sqlite.Conn.prepareStatement(Conn.java:383)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createStatement(JRJdbcQueryExecuter.java:267)
+[2015/07/14 10:59:05]: Report key 20150714105902: 	... 11 more
+[2015/07/14 10:59:05]: Report key 20150714105902: ERROR : Failed to create PDF file <1>
+[2015/07/14 10:59:05]: 
+[2015/07/14 10:59:05]: Process Ended
+[2015/07/14 10:59:04]: Process Started
+[2015/07/14 10:59:04]: Report key 20150714105902:  RPT_FORMAT PDF 
+[2015/07/14 10:59:04]: Report key 20150714105902: 
+[2015/07/14 10:59:05]: 
+[2015/07/14 10:59:05]: Process Ended
+[2015/07/14 11:02:00]: Process Started
+[2015/07/14 11:02:00]: Report key 20150714110200: DECIDE param : 
+[2015/07/14 11:02:00]: 
+[2015/07/14 11:02:00]: Process Ended
+[2015/07/14 11:02:00]: Process Started
+[2015/07/14 11:02:00]: Report key 20150714110200: Start!!!!: 
+[2015/07/14 11:02:00]: Report key 20150714110200: DB File is /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/db/tfex_credit_approve_20150714110200.db
+[2015/07/14 11:02:00]: Report key 20150714110200: Log File :/usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/log/tfex_credit_approve.log
+[2015/07/14 11:02:01]: Report key 20150714110200: begin process
+[2015/07/14 11:02:02]: 
+[2015/07/14 11:02:02]: Process Ended
+[2015/07/14 11:02:02]: Process Started
+[2015/07/14 11:02:02]: Report key 20150714110200:  DATABASE FILE   : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/db/tfex_credit_approve_20150714110200.db 
+[2015/07/14 11:02:02]: Report key 20150714110200:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/../layout/tfex_credit_approve.jasper 
+[2015/07/14 11:02:02]: Report key 20150714110200:  PDF FILE        : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/out/tfex_credit_approve_20150714110200.pdf
+[2015/07/14 11:02:02]: Report key 20150714110200:  LOG FILE        : /usr/local/decide/cust/decide_report/src/business_report/tfex_credit_approve_v51A8-001/test/log/tfex_credit_approve.log
+[2015/07/14 11:02:02]: Report key 20150714110200: Jasper file : tfex_credit_approve.jasper
+[2015/07/14 11:02:02]: Report key 20150714110200: DB file     : tfex_credit_approve_20150714110200.db
+[2015/07/14 11:02:02]: Report key 20150714110200: Report type : PDF
+[2015/07/14 11:02:02]: Report key 20150714110200: Out file    : tfex_credit_approve_20150714110200.pdf
+[2015/07/14 11:02:02]: Report key 20150714110200: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/14 11:02:02]: Report key 20150714110200: log4j:WARN Please initialize the log4j system properly.
+[2015/07/14 11:02:04]: 
+[2015/07/14 11:02:04]: Process Ended
+[2015/07/14 11:02:02]: Process Started
+[2015/07/14 11:02:02]: Report key 20150714110200:  RPT_FORMAT PDF 
+[2015/07/14 11:02:02]: Report key 20150714110200: 
+[2015/07/14 11:02:04]: 
+[2015/07/14 11:02:04]: Process Ended

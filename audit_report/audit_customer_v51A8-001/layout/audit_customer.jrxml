@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="SSLTD-AuditCustomerReport" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="81966fd2-66a6-4726-bf62-c680e8467016">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\SSBKL012DEV\\Desktop\\CustomerAudit\\template\\"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="CLIENT_ID" class="java.lang.String"/>
+	<parameter name="USER_ID" class="java.lang.String"/>
+	<parameter name="TIME" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select * from DECIDE_client
+group by user_id,client_id,time]]>
+	</queryString>
+	<field name="field" class="java.lang.Object"/>
+	<field name="value_old" class="java.lang.Object"/>
+	<field name="value_new" class="java.lang.Object"/>
+	<field name="client_id" class="java.lang.Object"/>
+	<field name="client_number" class="java.lang.Object"/>
+	<field name="client_name" class="java.lang.Object"/>
+	<field name="user_id" class="java.lang.Object"/>
+	<field name="time" class="java.lang.Object"/>
+	<variable name="count_record" class="java.lang.Integer" calculation="Count">
+		<variableExpression><![CDATA[$F{field}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="106">
+			<staticText>
+				<reportElement uuid="46aa03d0-3742-414e-9661-e6366fdfcddf" x="0" y="57" width="87" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Trade date	:]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="18bcb69a-03f4-4055-9b54-90a5bb495106" x="87" y="17" width="301" height="20"/>
+				<textElement markup="none"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="65ebf492-820b-41fc-a423-4de358cd0123" x="0" y="17" width="87" height="20"/>
+				<textElement/>
+				<text><![CDATA[Report date	:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f4ace8cc-10b0-4f50-81d0-389a5dbe7ed3" x="228" y="37" width="178" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TISCO Securities Company Limited ]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="2c2bfefb-fffa-4ba9-97a9-2250ec6c40d7" x="87" y="57" width="272" height="20"/>
+				<textElement verticalAlignment="Middle" markup="none"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="e1ddc4b5-7319-44b9-ae9b-418bf8a57662" x="468" y="17" width="30" height="20"/>
+				<textElement/>
+				<text><![CDATA[Time:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="d7fff2cf-ed03-4d16-9da4-e2fe2fbeb46e" x="498" y="17" width="57" height="20"/>
+				<textElement textAlignment="Right" markup="none"/>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("HH:mm:ss").format(new java.util.Date())]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="66680c66-33c9-44e7-a03d-fb2009ef9000" x="0" y="37" width="87" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[FC02]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e146d5cf-8fb5-41ab-8cb4-fd864bee5631" x="468" y="57" width="30" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Page :                1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8bef04e2-75aa-440e-aa0e-95ff6b0ed527" x="87" y="37" width="121" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Audit Customer Report]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="c750e37f-24b9-4ad1-953f-81d41e5b4332" x="0" y="78" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement uuid="05bcc4cc-3755-4e02-b1bb-0dd257599547" x="514" y="57" width="39" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="53071d11-0807-4ada-8426-a6b2eb346f2c" x="0" y="80" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement uuid="01aff58e-de1c-4de2-98f6-17bb566f3f8e" x="136" y="81" width="100" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[OLD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="38b5e7a9-d805-44b0-af3b-3ad4657c94d3" x="288" y="82" width="100" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[NEW]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ae03b9bc-9bbf-4509-805e-bf6d9a39a829" x="434" y="82" width="100" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[TIME]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="81" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="09622c02-743c-4113-a424-0ee7875ea8f4" x="0" y="41" width="555" height="40" isRemoveLineWhenBlank="true"/>
+				<subreportParameter name="TIME">
+					<subreportParameterExpression><![CDATA[$F{time}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="USER_ID">
+					<subreportParameterExpression><![CDATA[$F{user_id}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="CLIENT_ID">
+					<subreportParameterExpression><![CDATA[$F{client_id}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["audit_customer_subreport2.jasper"]]></subreportExpression>
+			</subreport>
+			<staticText>
+				<reportElement uuid="140a2a5a-60f7-4db1-8e55-8235c98ac8fd" x="0" y="12" width="30" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[User :]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="05bb9b69-fd61-4346-91c0-860545e051e2" x="30" y="12" width="53" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{user_id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="330bca13-27c4-42c5-90ff-94ba31e51a2d" x="87" y="12" width="49" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[CustID :]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="ea4cebcc-9985-4ba5-a03b-870def23be70" x="136" y="12" width="58" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{client_id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="48943832-034e-4842-a8fe-b71da2580453" x="205" y="12" width="40" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[Name :]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="79bffce1-279b-4bdb-ba07-402cb1ab7656" x="245" y="12" width="73" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{client_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="93d3c761-c50c-46ee-80fc-28df4b8c33db" x="434" y="12" width="99" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{time}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="97f89806-8721-4bcc-a080-4ec4192eb92b" x="0" y="0" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+	<summary>
+		<band height="50">
+			<staticText>
+				<reportElement uuid="6f793fa5-84c0-4b11-ad6b-82f6075b1d1d" x="99" y="15" width="100" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[records]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="37e91e67-a471-4da3-907c-78d45b459a49" x="85" y="15" width="14" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$V{count_record}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="d041648d-b77e-472c-9c6f-bd1c2ab1e231" x="0" y="15" width="84" height="20"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[User Login List   - ]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="35804558-629c-4d9f-8f0a-bc5bf2e3f9b1" x="0" y="8" width="555" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+		</band>
+	</summary>
+</jasperReport>

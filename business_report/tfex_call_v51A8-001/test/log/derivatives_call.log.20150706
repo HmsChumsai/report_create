@@ -1,0 +1,72 @@
+[2015/07/06 11:09:51]: Process Started
+[2015/07/06 11:09:51]: Report key 20150706110951: DECIDE param : 
+[2015/07/06 11:09:51]: 
+[2015/07/06 11:09:51]: Process Ended
+[2015/07/06 11:09:51]: Process Started
+[2015/07/06 11:09:52]: Report key 20150706110951: Start!!!!: 
+[2015/07/06 11:09:52]: Report key 20150706110951: DB File is /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/db/derivatives_call_20150706110951.db
+[2015/07/06 11:09:52]: Report key 20150706110951: Log File :/usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/log/derivatives_call.log
+[2015/07/06 11:09:52]: Report key 20150706110951: begin process
+[2015/07/06 11:09:54]: Report key 20150706110951: ----------------------------------------------------
+[2015/07/06 11:09:54]: Report key 20150706110951: -                   Begin Lua                      -
+[2015/07/06 11:09:54]: Report key 20150706110951: ----------------------------------------------------
+[2015/07/06 11:09:54]: Report key 20150706110951: - Mandator : TSC
+[2015/07/06 11:09:54]: Report key 20150706110951: /usr/local/decide//space-BKKTSC-1/bin/lua: ../bin/derivatives_call.lua:100: attempt to concatenate global 'mand_config' (a nil value)
+[2015/07/06 11:09:54]: Report key 20150706110951: stack traceback:
+[2015/07/06 11:09:54]: Report key 20150706110951: 	../bin/derivatives_call.lua:100: in function <../bin/derivatives_call.lua:33>
+[2015/07/06 11:09:54]: Report key 20150706110951: stack traceback:
+[2015/07/06 11:09:54]: Report key 20150706110951: 	[C]: in function 'changeTo'
+[2015/07/06 11:09:54]: Report key 20150706110951: 	../bin/derivatives_call.lua:256: in main chunk
+[2015/07/06 11:09:54]: Report key 20150706110951: 	[C]: in ?
+[2015/07/06 11:09:54]: 
+[2015/07/06 11:09:54]: Process Ended
+[2015/07/06 11:09:54]: Process Started
+[2015/07/06 11:09:54]: Report key 20150706110951:  DATABASE FILE   : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/db/derivatives_call_20150706110951.db 
+[2015/07/06 11:09:54]: Report key 20150706110951:  LAYOUT_FILE     : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/../layout/derivatives_call.jasper 
+[2015/07/06 11:09:54]: Report key 20150706110951:  PDF FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/out/derivatives_call_20150706110951.pdf
+[2015/07/06 11:09:54]: Report key 20150706110951:  LOG FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/log/derivatives_call.log
+[2015/07/06 11:09:54]: Report key 20150706110951: Error: Jasper file /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/../layout/derivatives_call.jasper does not exist!
+[2015/07/06 11:09:54]: Report key 20150706110951: 
+[2015/07/06 11:09:54]: Report key 20150706110951: ERROR : Failed to create PDF file <1>
+[2015/07/06 11:09:54]: 
+[2015/07/06 11:09:54]: Process Ended
+[2015/07/06 11:09:54]: Process Started
+[2015/07/06 11:09:54]: Report key 20150706110951:  RPT_FORMAT PDF 
+[2015/07/06 11:09:54]: Report key 20150706110951: 
+[2015/07/06 11:09:54]: 
+[2015/07/06 11:09:54]: Process Ended
+[2015/07/06 11:10:26]: Process Started
+[2015/07/06 11:10:26]: Report key 20150706111026: DECIDE param : 
+[2015/07/06 11:10:26]: 
+[2015/07/06 11:10:26]: Process Ended
+[2015/07/06 11:10:26]: Process Started
+[2015/07/06 11:10:26]: Report key 20150706111026: Start!!!!: 
+[2015/07/06 11:10:26]: Report key 20150706111026: DB File is /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/db/derivatives_call_20150706111026.db
+[2015/07/06 11:10:26]: Report key 20150706111026: Log File :/usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/log/derivatives_call.log
+[2015/07/06 11:10:26]: Report key 20150706111026: begin process
+[2015/07/06 11:10:28]: Report key 20150706111026: ----------------------------------------------------
+[2015/07/06 11:10:28]: Report key 20150706111026: -                   Begin Lua                      -
+[2015/07/06 11:10:28]: Report key 20150706111026: ----------------------------------------------------
+[2015/07/06 11:10:28]: Report key 20150706111026: - Mandator : TSC
+[2015/07/06 11:10:28]: Report key 20150706111026: - Entry from: 
+[2015/07/06 11:10:28]: Report key 20150706111026: - Entry to: 
+[2015/07/06 11:11:24]: Report key 20150706111026: ----------------------------------------------------
+[2015/07/06 11:11:24]: Report key 20150706111026: -*                  End Lua                       *-
+[2015/07/06 11:11:24]: Report key 20150706111026: ----------------------------------------------------
+[2015/07/06 11:11:24]: 
+[2015/07/06 11:11:24]: Process Ended
+[2015/07/06 11:11:24]: Process Started
+[2015/07/06 11:11:24]: Report key 20150706111026:  DATABASE FILE   : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/db/derivatives_call_20150706111026.db 
+[2015/07/06 11:11:24]: Report key 20150706111026:  LAYOUT_FILE     : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/../layout/derivatives_call.jasper 
+[2015/07/06 11:11:24]: Report key 20150706111026:  PDF FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/out/derivatives_call_20150706111026.pdf
+[2015/07/06 11:11:24]: Report key 20150706111026:  LOG FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/log/derivatives_call.log
+[2015/07/06 11:11:24]: Report key 20150706111026: Error: Jasper file /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/../layout/derivatives_call.jasper does not exist!
+[2015/07/06 11:11:24]: Report key 20150706111026: 
+[2015/07/06 11:11:24]: Report key 20150706111026: ERROR : Failed to create PDF file <1>
+[2015/07/06 11:11:24]: 
+[2015/07/06 11:11:24]: Process Ended
+[2015/07/06 11:11:24]: Process Started
+[2015/07/06 11:11:24]: Report key 20150706111026:  RPT_FORMAT PDF 
+[2015/07/06 11:11:24]: Report key 20150706111026: 
+[2015/07/06 11:11:24]: 
+[2015/07/06 11:11:24]: Process Ended

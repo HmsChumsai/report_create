@@ -1,0 +1,46 @@
+[2015/07/06 11:33:41]: Process Started
+[2015/07/06 11:33:41]: Report key 20150706113341: DECIDE param : 
+[2015/07/06 11:33:41]: 
+[2015/07/06 11:33:41]: Process Ended
+[2015/07/06 11:33:41]: Process Started
+[2015/07/06 11:33:41]: Report key 20150706113341: Start!!!!: 
+[2015/07/06 11:33:41]: Report key 20150706113341: DB File is /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_trade_v51A-001/test/db/derivatives_trade_20150706113341.db
+[2015/07/06 11:33:41]: Report key 20150706113341: Log File :/usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_trade_v51A-001/test/log/derivatives_trade.log
+[2015/07/06 11:33:41]: Report key 20150706113341: begin process
+[2015/07/06 11:33:41]: Report key 20150706113341: ----------------------------------------------------
+[2015/07/06 11:33:41]: Report key 20150706113341: -                   Begin Lua                      -
+[2015/07/06 11:33:41]: Report key 20150706113341: ----------------------------------------------------
+[2015/07/06 11:33:41]: Report key 20150706113341: - Mandator : TSC
+[2015/07/06 11:33:41]: Report key 20150706113341: - Entry from: 
+[2015/07/06 11:33:41]: Report key 20150706113341: - Entry to: 2015-07-06T17:00:00
+[2015/07/06 11:33:41]: Report key 20150706113341: -* Order deposit = I-420360 I-420360
+[2015/07/06 11:33:41]: Report key 20150706113341: Order number100715402
+[2015/07/06 11:33:41]: Report key 20150706113341: -* Order deposit = I-421855 I-421855
+[2015/07/06 11:33:41]: Report key 20150706113341: Order number100715403
+[2015/07/06 11:33:41]: Report key 20150706113341: -* Order deposit = I-420360 I-420360
+[2015/07/06 11:33:41]: Report key 20150706113341: Order number100715404
+[2015/07/06 11:33:41]: Report key 20150706113341: -* Order deposit = I-441538 I-441538
+[2015/07/06 11:33:41]: Report key 20150706113341: Order number100715405
+[2015/07/06 11:33:41]: Report key 20150706113341: ----------------------------------------------------
+[2015/07/06 11:33:41]: Report key 20150706113341: -*                  End Lua                       *-
+[2015/07/06 11:33:41]: Report key 20150706113341: ----------------------------------------------------
+[2015/07/06 11:33:41]: 
+[2015/07/06 11:33:41]: Process Ended
+[2015/07/06 11:33:41]: Process Started
+[2015/07/06 11:33:41]: Report key 20150706113341:  DATABASE FILE   : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_trade_v51A-001/test/db/derivatives_trade_20150706113341.db 
+[2015/07/06 11:33:41]: Report key 20150706113341:  LAYOUT_FILE     : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_trade_v51A-001/test/../layout/derivatives_trade.jasper 
+[2015/07/06 11:33:41]: Report key 20150706113341:  PDF FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_trade_v51A-001/test/out/derivatives_trade_20150706113341.pdf
+[2015/07/06 11:33:41]: Report key 20150706113341:  LOG FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_trade_v51A-001/test/log/derivatives_trade.log
+[2015/07/06 11:33:41]: Report key 20150706113341: Jasper file : derivatives_trade.jasper
+[2015/07/06 11:33:41]: Report key 20150706113341: DB file     : derivatives_trade_20150706113341.db
+[2015/07/06 11:33:41]: Report key 20150706113341: Report type : PDF
+[2015/07/06 11:33:41]: Report key 20150706113341: Out file    : derivatives_trade_20150706113341.pdf
+[2015/07/06 11:33:42]: Report key 20150706113341: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/06 11:33:42]: Report key 20150706113341: log4j:WARN Please initialize the log4j system properly.
+[2015/07/06 11:33:43]: 
+[2015/07/06 11:33:43]: Process Ended
+[2015/07/06 11:33:41]: Process Started
+[2015/07/06 11:33:41]: Report key 20150706113341:  RPT_FORMAT PDF 
+[2015/07/06 11:33:41]: Report key 20150706113341: 
+[2015/07/06 11:33:43]: 
+[2015/07/06 11:33:43]: Process Ended

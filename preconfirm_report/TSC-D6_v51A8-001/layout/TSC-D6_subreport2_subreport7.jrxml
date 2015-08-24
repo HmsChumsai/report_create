@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="TSC-D6_subreport2_subreport7" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4fc04b69-96ee-4b9e-ada0-14fd666f354e">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select decide_order.seq,decide_order.side,decide_order.stock,sum(decide_order.vol),decide_order.price,sum(decide_order.gross_amt),sum(decide_order.comm_fee),sum(decide_order.vat),sum(decide_order.amount_due),decide_total.comm,decide_total.total_amount_due,decide_total.total_gross,decide_total.vat,decide_total.net,decide_total.paid_received
+from decide_order,decide_total
+group by decide_order.side,decide_order.stock,decide_order.price
+order by side,stock,price desc]]>
+	</queryString>
+	<field name="seq" class="java.lang.Object"/>
+	<field name="side" class="java.lang.Object"/>
+	<field name="stock" class="java.lang.Object"/>
+	<field name="sum(decide_order.vol)" class="java.lang.Object"/>
+	<field name="price" class="java.lang.Object"/>
+	<field name="sum(decide_order.gross_amt)" class="java.lang.Object"/>
+	<field name="sum(decide_order.comm_fee)" class="java.lang.Object"/>
+	<field name="sum(decide_order.vat)" class="java.lang.Object"/>
+	<field name="sum(decide_order.amount_due)" class="java.lang.Object"/>
+	<field name="comm" class="java.lang.Object"/>
+	<field name="total_amount_due" class="java.lang.Object"/>
+	<field name="total_gross" class="java.lang.Object"/>
+	<field name="vat" class="java.lang.Object"/>
+	<field name="net" class="java.lang.Object"/>
+	<field name="paid_received" class="java.lang.Object"/>
+	<variable name="TOTAL_comm_fee" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.comm_fee)}]]></variableExpression>
+		<initialValueExpression><![CDATA[0.0]]></initialValueExpression>
+	</variable>
+	<variable name="TOTAL_vat" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.vat)}]]></variableExpression>
+		<initialValueExpression><![CDATA[0.0]]></initialValueExpression>
+	</variable>
+	<summary>
+		<band height="80" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="e712d01a-ce63-4b6f-9e70-6fa8d6d73252" x="217" y="13" width="100" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Total Comm.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4d9aa7ac-72e3-4e00-8eca-f3322e4f4f00" x="217" y="25" width="100" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Total TR Fee.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f00eb00f-88c2-4a0f-9f17-58935a5566f6" x="217" y="37" width="100" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Total Cl Fee.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5d4f877c-7efc-45ef-b19d-86b1c59b3c56" x="217" y="49" width="100" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Total VAT.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="aaedd540-47cf-46db-8070-404023ce5418" x="466" y="25" width="73" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[0.00]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="dc4d3050-b150-43eb-9ce2-42d40bd3c8c8" x="466" y="37" width="73" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[0.00]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="39e9ab27-191d-41d9-927b-191ecc8ccc59" x="466" y="13" width="73" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(new DecimalFormat("###,###,##0.00")).format($V{TOTAL_comm_fee})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="dcdeb8f4-6396-4e9c-9e80-3e856b111741" x="466" y="49" width="73" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8" isUnderline="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(new DecimalFormat("###,###,##0.00")).format($V{TOTAL_vat})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="a2f8b816-b02c-413e-bf58-b97365da6a84" x="217" y="61" width="100" height="12"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Net Customer]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="04088d82-4146-4fae-af98-24bd050772f9" x="466" y="61" width="73" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{net}== null ? "" :(new DecimalFormat("###,###,##0.00")).format($F{net})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b615ded8-59da-42ca-9ab6-e64c773207a0" x="401" y="61" width="65" height="12"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["[ "+ $F{paid_received}+" ]"]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="399c2946-e65c-496f-b19c-7120bc0bc540" x="125" y="4" width="430" height="1"/>
+			</line>
+		</band>
+	</summary>
+</jasperReport>

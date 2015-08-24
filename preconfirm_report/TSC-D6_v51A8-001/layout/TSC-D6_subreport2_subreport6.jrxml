@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="TSC-D6_subreport2_subreport6" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="19ec39f1-6367-4aa9-afe0-19bfb517cbca">
+	<property name="ireport.zoom" value="3.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="ORDER_STOCK" class="java.lang.String"/>
+	<parameter name="ORDER_SIDE" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select decide_order.seq,decide_order.side,decide_order.stock,sum(decide_order.vol),decide_order.price,sum(decide_order.gross_amt),sum(decide_order.comm_fee),sum(decide_order.vat),sum(decide_order.amount_due),decide_total.comm,decide_total.total_amount_due,decide_total.total_gross,decide_total.vat,decide_total.net,decide_total.paid_received
+from decide_order,decide_total
+where decide_order.side=$P{ORDER_SIDE} and decide_order.stock=$P{ORDER_STOCK}
+group by decide_order.side,decide_order.stock,decide_order.price
+order by side,stock,price desc]]>
+	</queryString>
+	<field name="seq" class="java.lang.Object"/>
+	<field name="side" class="java.lang.Object"/>
+	<field name="stock" class="java.lang.Object"/>
+	<field name="sum(decide_order.vol)" class="java.lang.Object"/>
+	<field name="price" class="java.lang.Object"/>
+	<field name="sum(decide_order.gross_amt)" class="java.lang.Object"/>
+	<field name="sum(decide_order.comm_fee)" class="java.lang.Object"/>
+	<field name="sum(decide_order.vat)" class="java.lang.Object"/>
+	<field name="sum(decide_order.amount_due)" class="java.lang.Object"/>
+	<field name="comm" class="java.lang.Object"/>
+	<field name="total_amount_due" class="java.lang.Object"/>
+	<field name="total_gross" class="java.lang.Object"/>
+	<field name="vat" class="java.lang.Object"/>
+	<field name="net" class="java.lang.Object"/>
+	<field name="paid_received" class="java.lang.Object"/>
+	<variable name="SUM_SIDE_STOCK_PRICE" class="java.lang.Number" calculation="Sum">
+		<variableExpression><![CDATA[$F{price}]]></variableExpression>
+	</variable>
+	<variable name="SUM_SIDE_STOCK_VOL" class="java.lang.Number" resetType="Group" resetGroup="stock" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.vol)}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="SUM_SIDE_STOCK_GROSS" class="java.lang.Number" resetType="Group" resetGroup="stock" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.gross_amt)}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="SUM_SIDE_STOCK_COM" class="java.lang.Number" resetType="Group" resetGroup="stock" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.comm_fee)}]]></variableExpression>
+	</variable>
+	<variable name="SUM_SIDE_STOCK_VAT" class="java.lang.Number" resetType="Group" resetGroup="stock" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.vat)}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="SUM_SIDE_STOCK_AMOUNT_DUE" class="java.lang.Number" resetType="Group" resetGroup="stock" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.amount_due)}]]></variableExpression>
+	</variable>
+	<variable name="AVG_SIDE_STOCK_PRICE" class="java.lang.Number" resetType="Group" resetGroup="stock">
+		<variableExpression><![CDATA[new Double($V{SUM_SIDE_STOCK_GROSS}.doubleValue() / $V{SUM_SIDE_STOCK_VOL}.doubleValue() )]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<variable name="SUM_amt" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.gross_amt)}]]></variableExpression>
+		<initialValueExpression><![CDATA[0.0]]></initialValueExpression>
+	</variable>
+	<variable name="SUM_comm_fee" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.comm_fee)}]]></variableExpression>
+		<initialValueExpression><![CDATA[0.0]]></initialValueExpression>
+	</variable>
+	<variable name="SUM_amount_due" class="java.lang.Double" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.amount_due)}]]></variableExpression>
+		<initialValueExpression><![CDATA[0.0]]></initialValueExpression>
+	</variable>
+	<variable name="SUM_VAT" class="java.lang.Number" calculation="Sum">
+		<variableExpression><![CDATA[$F{sum(decide_order.vat)}]]></variableExpression>
+		<initialValueExpression><![CDATA[0]]></initialValueExpression>
+	</variable>
+	<group name="stock">
+		<groupExpression><![CDATA[$F{stock}]]></groupExpression>
+		<groupFooter>
+			<band height="17">
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="97e27544-a6da-4251-a377-30cb782b8c8a" x="162" y="3" width="62" height="11"/>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{AVG_SIDE_STOCK_PRICE} == null ? "" :(new DecimalFormat("###,###,##0.0000")).format($V{AVG_SIDE_STOCK_PRICE})]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="62fd205a-360a-4840-8d76-441922fe6d83" x="243" y="3" width="55" height="11"/>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{SUM_SIDE_STOCK_GROSS}== null ? "" :(new DecimalFormat("###,###,##0.00")).format($V{SUM_SIDE_STOCK_GROSS})]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="7a0dc28d-ed90-4603-a2e4-f5daa57c4141" x="320" y="3" width="48" height="11"/>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{SUM_SIDE_STOCK_COM} == null ? "" :(new DecimalFormat("###,###,##0.00")).format($V{SUM_SIDE_STOCK_COM})]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="0781eb1b-4510-458b-91f4-7aeb849a0e7d" x="371" y="3" width="62" height="11"/>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{SUM_SIDE_STOCK_VAT} == null ? "" :(new DecimalFormat("###,###,##0.00")).format($V{SUM_SIDE_STOCK_VAT})]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="347fa011-9999-48d8-b9fa-5da6a08c00c1" x="466" y="3" width="73" height="11"/>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{SUM_SIDE_STOCK_AMOUNT_DUE} == null ? "" :(new DecimalFormat("###,###,##0.00")).format($V{SUM_SIDE_STOCK_AMOUNT_DUE})]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="120158af-b1a1-45ba-acfa-dbe2799658f1" x="127" y="3" width="35" height="11"/>
+					<textElement textAlignment="Right">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{SUM_SIDE_STOCK_VOL} == null ? "" :(new DecimalFormat("###,###,##0")).format($V{SUM_SIDE_STOCK_VOL})]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement uuid="9f3a577c-f8dd-42d6-b5e9-272ccf87dc7d" x="127" y="14" width="35" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="b6a1c360-e0c5-412f-af82-5cbd5fb622be" x="127" y="15" width="35" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="999505fe-a9b7-4f21-ba92-70b2d164cf3e" x="172" y="14" width="52" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="8f6a91e6-8c1f-47e3-bd54-b94094689b5e" x="172" y="15" width="52" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="77e6bea6-2921-42f4-b3dc-81156703b886" x="253" y="14" width="45" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="7d4afe0a-6b3d-4897-803e-b2cb78052ba4" x="253" y="15" width="45" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="b743f3ff-d81e-4950-914f-1ca56d183f99" x="317" y="14" width="51" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="0923d693-9be0-42fc-83ca-e77a76fdc7ea" x="317" y="15" width="51" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="bd6f9ce4-8508-4a18-a339-8921e70a58de" x="382" y="14" width="51" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="93872cee-ee8d-4f3e-a2fc-d87db0b6daa4" x="382" y="15" width="51" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="3015a9c8-f5b2-44e1-bc95-418a5864a8c7" x="466" y="14" width="73" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+				<line>
+					<reportElement uuid="e7ceab3d-a253-43d1-afaa-b0af1b7b2fa2" x="466" y="15" width="73" height="1"/>
+					<graphicElement>
+						<pen lineWidth="0.5" lineStyle="Dashed"/>
+					</graphicElement>
+				</line>
+			</band>
+		</groupFooter>
+	</group>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<textField>
+				<reportElement uuid="27e41a5f-9793-475c-a642-fee589c4e761" x="466" y="0" width="73" height="11"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sum(decide_order.amount_due)}== null ? "" :(new DecimalFormat("###,###,##0.00")).format($F{sum(decide_order.amount_due)})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="a63325f1-b54d-45ea-bcc2-0bc1494238c1" x="317" y="0" width="51" height="11"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sum(decide_order.comm_fee)} == null ? "" :(new DecimalFormat("###,###,##0.00")).format($F{sum(decide_order.comm_fee)})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7b37c4b0-e8b3-4100-bb50-964cf3154ede" x="162" y="0" width="62" height="11"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(new DecimalFormat("###,###,##0.0000")).format($F{price})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="905d4884-c22e-409c-9b57-a8697320a5c7" x="125" y="0" width="37" height="11"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(new DecimalFormat("###,###,##0")).format($F{sum(decide_order.vol)})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ab9799db-1247-4216-a94f-81b6bb828086" x="243" y="0" width="55" height="11"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sum(decide_order.gross_amt)} == null ? "" :(new DecimalFormat("###,###,##0.00")).format($F{sum(decide_order.gross_amt)})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="2d5c9451-9131-40e6-b738-2733035dca6c" x="368" y="0" width="65" height="11"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(new DecimalFormat("###,###,##0.00")).format($F{sum(decide_order.vat)})]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="366ae8d1-3b21-4612-ab9c-c6b16bf43cf8" x="466" y="12" width="73" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="7752caf1-bfb1-4a66-b415-2669eabad657" x="382" y="13" width="51" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="43cae8b7-3b42-4fce-b993-4fd28a4374c2" x="317" y="12" width="51" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="db472c7b-660c-40b3-99e8-a03597420bd2" x="253" y="12" width="45" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="8e8497a6-03db-4a30-ac05-d8a47d5eaf01" x="172" y="12" width="52" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement uuid="ea09cda0-e537-4aab-905b-87bcb8d74614" x="127" y="12" width="35" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineStyle="Dashed"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+</jasperReport>

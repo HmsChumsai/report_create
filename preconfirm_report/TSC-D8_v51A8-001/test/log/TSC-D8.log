@@ -1,0 +1,53 @@
+[2015/07/17 10:02:02]: Process Started
+[2015/07/17 10:02:02]: Report key 20150717100202: HKTHX-2
+[2015/07/17 10:02:02]: 
+[2015/07/17 10:02:02]: Process Ended
+[2015/07/17 10:02:02]: Process Started
+[2015/07/17 10:02:02]: Report key 20150717100202: DECIDE param : HKTHX-2
+[2015/07/17 10:02:02]: 
+[2015/07/17 10:02:02]: Process Ended
+[2015/07/17 10:02:02]: Process Started
+[2015/07/17 10:02:03]: Report key 20150717100202: depositId: 
+[2015/07/17 10:02:03]: Report key 20150717100202: entryFrom: 
+[2015/07/17 10:02:03]: Report key 20150717100202: entryTo: 
+[2015/07/17 10:02:03]: Report key 20150717100202: log_file: /usr/local/decide/cust/decide_report/src/preconfirm_report/TSC-D8_v51A8-001/test/log/TSC-D8.log
+[2015/07/17 10:02:03]: Report key 20150717100202: db_file: /usr/local/decide/cust/decide_report/src/preconfirm_report/TSC-D8_v51A8-001/test/db/TSC-D8_20150717100202.db
+[2015/07/17 10:02:03]: Report key 20150717100202: format: PDF
+[2015/07/17 10:02:03]: Report key 20150717100202: lua: ../src/db/dash/fsMandator.cc:1920: void fs::mandator::changeTo(fs::Mandator): Assertion `Mandator() < dbSerial' failed.
+[2015/07/17 10:02:03]: Report key 20150717100202: 2015-07-17T10:02:03+07:00 Received signal SIGABRT(Aborted) (code=-6)
+[2015/07/17 10:02:03]: Report key 20150717100202: Backtrace:
+[2015/07/17 10:02:03]: Report key 20150717100202:   coco::getContext [+f4] <libbsys.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <libbsys.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   base::sys::getStackItems [+18b] <libbsys.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   base::sys::dumpStack [+53] <libbsys.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <libbsys.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <libbsys.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <libpthread.so.0>
+[2015/07/17 10:02:03]: Report key 20150717100202:   gsignal [+35] <libc.so.6>
+[2015/07/17 10:02:03]: Report key 20150717100202:   abort [+110] <libc.so.6>
+[2015/07/17 10:02:03]: Report key 20150717100202:   __assert_fail [+f6] <libc.so.6>
+[2015/07/17 10:02:03]: Report key 20150717100202:   fs::mandator::changeTo [+8a] <libDash.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   fs::mandator::Guard::Guard [+b] <libDash.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <libreqmandator.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   yalb::callback<> [+85] <libreqmandator.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <libreqmandator.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:    main chunk [../bin/TSC-D8.lua:219]
+[2015/07/17 10:02:03]: Report key 20150717100202:   <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   lua_pcallk [+7d] <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <lua>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <lua>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   lua_pcallk [+7d] <liblua.so>
+[2015/07/17 10:02:03]: Report key 20150717100202:   main [+6c] <lua>
+[2015/07/17 10:02:03]: Report key 20150717100202:   __libc_start_main [+f4] <libc.so.6>
+[2015/07/17 10:02:03]: Report key 20150717100202:   <lua>
+[2015/07/17 10:02:03]: Report key 20150717100202: Note: Current limit for core files is 0 kb. You may get no/truncated core file.
+[2015/07/17 10:02:03]: 
+[2015/07/17 10:02:03]: Process Ended

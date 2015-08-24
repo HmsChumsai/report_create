@@ -1,0 +1,35 @@
+[2015/07/07 15:55:52]: Process Started
+[2015/07/07 15:55:52]: Report key 20150707155552: DECIDE param : 
+[2015/07/07 15:55:52]: 
+[2015/07/07 15:55:52]: Process Ended
+[2015/07/07 15:55:52]: Process Started
+[2015/07/07 15:55:52]: Report key 20150707155552: Start!!!!: 
+[2015/07/07 15:55:52]: Report key 20150707155552: DB File is /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/db/derivatives_call_20150707155552.db
+[2015/07/07 15:55:52]: Report key 20150707155552: Log File :/usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/log/derivatives_call.log
+[2015/07/07 15:55:52]: Report key 20150707155552: begin process
+[2015/07/07 15:55:54]: Report key 20150707155552: ----------------------------------------------------
+[2015/07/07 15:55:54]: Report key 20150707155552: -                   Begin Lua                      -
+[2015/07/07 15:55:54]: Report key 20150707155552: ----------------------------------------------------
+[2015/07/07 15:55:54]: Report key 20150707155552: - Mandator : TSC
+[2015/07/07 15:55:54]: Report key 20150707155552: - Entry from: 
+[2015/07/07 15:55:54]: Report key 20150707155552: - Entry to: 
+[2015/07/07 15:56:48]: Report key 20150707155552: ----------------------------------------------------
+[2015/07/07 15:56:48]: Report key 20150707155552: -*                  End Lua                       *-
+[2015/07/07 15:56:48]: Report key 20150707155552: ----------------------------------------------------
+[2015/07/07 15:56:48]: 
+[2015/07/07 15:56:48]: Process Ended
+[2015/07/07 15:56:48]: Process Started
+[2015/07/07 15:56:48]: Report key 20150707155552:  DATABASE FILE   : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/db/derivatives_call_20150707155552.db 
+[2015/07/07 15:56:48]: Report key 20150707155552:  LAYOUT_FILE     : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/../layout/derivatives_call.jasper 
+[2015/07/07 15:56:48]: Report key 20150707155552:  PDF FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/out/derivatives_call_20150707155552.pdf
+[2015/07/07 15:56:48]: Report key 20150707155552:  LOG FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/log/derivatives_call.log
+[2015/07/07 15:56:49]: Report key 20150707155552: Error: Jasper file /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_call_v51A-001/test/../layout/derivatives_call.jasper does not exist!
+[2015/07/07 15:56:49]: Report key 20150707155552: 
+[2015/07/07 15:56:49]: Report key 20150707155552: ERROR : Failed to create PDF file <1>
+[2015/07/07 15:56:49]: 
+[2015/07/07 15:56:49]: Process Ended
+[2015/07/07 15:56:48]: Process Started
+[2015/07/07 15:56:48]: Report key 20150707155552:  RPT_FORMAT PDF 
+[2015/07/07 15:56:48]: Report key 20150707155552: 
+[2015/07/07 15:56:49]: 
+[2015/07/07 15:56:49]: Process Ended

@@ -1,0 +1,62 @@
+                                                                                     
+   Report  16/35/2015                                               TIME             
+                                                                                     
+   FC03    User Login         TISCO Securities Company                               
+   Trade   16/35/2015                  Limited                      Page  1          
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+   USER-ID   CHANNEL   USER-NAME  SET-ITIME      STATUS    SERVER IP   CLIENT IP     
+                                                                                     
+   jlaude    ClassicDECJan Laude  61-  22:07:13  Login     server      192.168.180.  
+                                                                                     
+   mkasprow  RT        Michael    nil  15:24:59  Login     server                    
+                                                                                     
+   ssmicky   ClassicDECWIJITTRA   D999909:32:26  Login     server      10.34.32.91   
+                                                                                     
+   ssmicky   RT        WIJITTRA   D999909:40:55  Logout    server      10.34.32.91   
+   ssmicky   RT        WIJITTRA   D999909:41:17  Login     server      10.34.32.91   
+                                                                                     
+   ssmkorn   RT        Ravipong   nil  10:22:18  Login     server      10.34.32.77   
+                                                                                     
+   ssmyce    ClassicDECKridsada   D999911:08:59  Login     server      10.34.32.83   
+   ssnot     ClassicDECKaipich    D999914:05:23  Login     server      10.34.32.118  
+                                                                                     
+   ssnot     RT        Kaipich    D999913:50:28  Login     server      10.34.32.118  
+                                                                                     
+   sspaween  ClassicDECPaweenwat  D999908:56:22  Login     server      10.34.32.76   
+                                                                                     
+   sspaween  ClassicDECPaweenwat  D999909:53:29  Login     server      10.34.32.76   
+   sspaween  RT        Paweenwat  D999909:49:03  Logout    server      10.34.32.76   
+                                                                                     
+   sspaween  RT        Paweenwat  D999909:49:09  Login     server      10.34.32.76   
+                                                                                     
+   sspaween  RT        Paweenwat  D999909:49:09  Logout    server                    
+   sspluem   ClassicDECPanu       D999909:24:50  Login     server      10.34.32.99   
+                                                                                     
+   sspluem   RT        Panu       D999909:52:39  Login     server      10.34.32.99   
+                                                                                     
+   sspluem   RT        Panu       D999914:38:26  Login     server                    
+                                                                                     
+   ssppong   RT        Tanachad   D999916:56:32  Login     server                    
+   ssthrep   ClassicDECThreenuch  D999909:49:24  Login     server      10.34.32.94   
+                                                                                     
+   ssthrep   RT        Threenuch  D999909:43:48  Login     server      10.34.32.94   
+                                                                                     
+   ssthrep   RT        Threenuch  D999909:43:48  Logout    server                    
+   ssvin     RT        Varin      D999917:49:59  Login     server                    
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+   User Login  22records                                                             
+                                                                                     
+                                                                                     
+
+

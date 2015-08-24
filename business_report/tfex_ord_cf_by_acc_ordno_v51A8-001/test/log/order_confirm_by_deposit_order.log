@@ -1,0 +1,153 @@
+[2015/06/16 14:03:00]: Process Started
+[2015/06/16 14:03:00]: Report key 20150616140600: DECIDE param : 
+[2015/06/16 14:03:00]: 
+[2015/06/16 14:03:00]: Process Ended
+[2015/06/16 14:03:00]: Process Started
+[2015/06/16 14:03:01]: Report key 20150616140600: Start!!!!: 
+[2015/06/16 14:03:01]: Report key 20150616140600: DB File is /usr/local/decide/cust/dev_thailand/decide_report/src/business_report/order_confirm_by_deposit_order_v51A5-001/test/db/order_confirm_by_deposit_order_20150616140600.db
+[2015/06/16 14:03:01]: Report key 20150616140600: Log File :/usr/local/decide/cust/dev_thailand/decide_report/src/business_report/order_confirm_by_deposit_order_v51A5-001/test/log/order_confirm_by_deposit_order.log
+[2015/06/16 14:03:01]: Report key 20150616140600: begin process
+[2015/06/16 14:03:01]: Report key 20150616140600: orderConfirmUtil	table: 0x23a9440
+[2015/06/16 14:03:01]: Report key 20150616140600: ============= GET ALL ORDERS ==========
+[2015/06/16 14:03:01]: Report key 20150616140600: ============= End GET ALL ORDERS ==========
+[2015/06/16 14:03:01]: Report key 20150616140600: ============= GET ORDER Details ==========
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: exchange : 	Thailand Future Exchange
+[2015/06/16 14:03:01]: Report key 20150616140600: orderHandlingType : 	TradingOrder
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: THAILAND STOCK EXCHANGE
+[2015/06/16 14:03:01]: Report key 20150616140600: Header List : 	{ { { "trade_date", "15/06/2015" }, { "broker", "TSC" } } }
+[2015/06/16 14:03:04]: Report key 20150616140600: ----------------------------------------------------
+[2015/06/16 14:03:04]: Report key 20150616140600: -*                  End Lua                       *-
+[2015/06/16 14:03:04]: Report key 20150616140600: ----------------------------------------------------
+[2015/06/16 14:03:04]: 
+[2015/06/16 14:03:04]: Process Ended
+[2015/06/16 14:03:04]: Process Started
+[2015/06/16 14:03:04]: Report key 20150616140600:  DATABASE FILE   : /usr/local/decide/cust/dev_thailand/decide_report/src/business_report/order_confirm_by_deposit_order_v51A5-001/test/db/order_confirm_by_deposit_order_20150616140600.db 
+[2015/06/16 14:03:04]: Report key 20150616140600:  LAYOUT_FILE     : /usr/local/decide/cust/dev_thailand/decide_report/src/business_report/order_confirm_by_deposit_order_v51A5-001/test/../layout/order_confirm_by_deposit_order.jasper 
+[2015/06/16 14:03:04]: Report key 20150616140600:  PDF FILE        : /usr/local/decide/cust/dev_thailand/decide_report/src/business_report/order_confirm_by_deposit_order_v51A5-001/test/out/order_confirm_by_deposit_order_20150616140600.pdf
+[2015/06/16 14:03:04]: Report key 20150616140600:  LOG FILE        : /usr/local/decide/cust/dev_thailand/decide_report/src/business_report/order_confirm_by_deposit_order_v51A5-001/test/log/order_confirm_by_deposit_order.log
+[2015/06/16 14:03:04]: Report key 20150616140600: Error: Jasper file /usr/local/decide/cust/dev_thailand/decide_report/src/business_report/order_confirm_by_deposit_order_v51A5-001/test/../layout/order_confirm_by_deposit_order.jasper does not exist!
+[2015/06/16 14:03:04]: Report key 20150616140600: 
+[2015/06/16 14:03:04]: Report key 20150616140600: ERROR : Failed to create PDF file <1>
+[2015/06/16 14:03:04]: 
+[2015/06/16 14:03:04]: Process Ended
+[2015/06/16 14:03:04]: Process Started
+[2015/06/16 14:03:04]: Report key 20150616140600:  RPT_FORMAT PDF 
+[2015/06/16 14:03:04]: Report key 20150616140600: 
+[2015/06/16 14:03:04]: 
+[2015/06/16 14:03:04]: Process Ended

@@ -1,0 +1,23 @@
+[2015/07/16 13:58:11]: Process Started
+[2015/07/16 13:58:11]: Report key 20150716135811: DECIDE param : 
+[2015/07/16 13:58:11]: 
+[2015/07/16 13:58:11]: Process Ended
+[2015/07/16 13:58:11]: Process Started
+[2015/07/16 13:58:11]: Report key 20150716135811: depositId: 
+[2015/07/16 13:58:11]: Report key 20150716135811: entryFrom: 
+[2015/07/16 13:58:11]: Report key 20150716135811: entryTo: 
+[2015/07/16 13:58:11]: Report key 20150716135811: log_file: /usr/local/decide/cust/decide_report/src/preconfirm_report/TSC-D5_v51A8-001/test/log/TSC-D5.log
+[2015/07/16 13:58:11]: Report key 20150716135811: db_file: /usr/local/decide/cust/decide_report/src/preconfirm_report/TSC-D5_v51A8-001/test/db/TSC-D5_20150716135811.db
+[2015/07/16 13:58:11]: Report key 20150716135811: format: PDF
+[2015/07/16 13:58:11]: Report key 20150716135811: /usr/local/decide//space-HKTHX-2/bin/lua: /usr/local/decide/cust/decide_report/etc/../util/common.lua:131: field 'day' missing in date table
+[2015/07/16 13:58:11]: Report key 20150716135811: stack traceback:
+[2015/07/16 13:58:11]: Report key 20150716135811: 	[C]: in function 'time'
+[2015/07/16 13:58:11]: Report key 20150716135811: 	/usr/local/decide/cust/decide_report/etc/../util/common.lua:131: in function 'strToTick'
+[2015/07/16 13:58:11]: Report key 20150716135811: 	/usr/local/decide/cust/decide_report/etc/../util/common.lua:135: in function 'CheckValidTimeRange'
+[2015/07/16 13:58:11]: Report key 20150716135811: 	../bin/TSC-D5.lua:47: in function <../bin/TSC-D5.lua:35>
+[2015/07/16 13:58:11]: Report key 20150716135811: stack traceback:
+[2015/07/16 13:58:11]: Report key 20150716135811: 	[C]: in function 'changeTo'
+[2015/07/16 13:58:11]: Report key 20150716135811: 	../bin/TSC-D5.lua:165: in main chunk
+[2015/07/16 13:58:11]: Report key 20150716135811: 	[C]: in ?
+[2015/07/16 13:58:11]: 
+[2015/07/16 13:58:11]: Process Ended

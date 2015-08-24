@@ -1,0 +1,38 @@
+[2015/07/07 15:48:44]: Process Started
+[2015/07/07 15:48:44]: Report key 20150707154844: DECIDE param : 
+[2015/07/07 15:48:44]: 
+[2015/07/07 15:48:44]: Process Ended
+[2015/07/07 15:48:44]: Process Started
+[2015/07/07 15:48:44]: Report key 20150707154844: Start!!!!: 
+[2015/07/07 15:48:44]: Report key 20150707154844: DB File is /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_force_v51A-001/test/db/derivatives_force_20150707154844.db
+[2015/07/07 15:48:44]: Report key 20150707154844: Log File :/usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_force_v51A-001/test/log/derivatives_force.log
+[2015/07/07 15:48:44]: Report key 20150707154844: begin process
+[2015/07/07 15:48:46]: Report key 20150707154844: ----------------------------------------------------
+[2015/07/07 15:48:46]: Report key 20150707154844: -                   Begin Lua                      -
+[2015/07/07 15:48:46]: Report key 20150707154844: ----------------------------------------------------
+[2015/07/07 15:48:46]: Report key 20150707154844: - Mandator : TSC
+[2015/07/07 15:48:46]: Report key 20150707154844: - Entry from: 
+[2015/07/07 15:48:46]: Report key 20150707154844: - Entry to: 
+[2015/07/07 15:49:41]: Report key 20150707154844: ----------------------------------------------------
+[2015/07/07 15:49:41]: Report key 20150707154844: -*                  End Lua                       *-
+[2015/07/07 15:49:41]: Report key 20150707154844: ----------------------------------------------------
+[2015/07/07 15:49:41]: 
+[2015/07/07 15:49:41]: Process Ended
+[2015/07/07 15:49:41]: Process Started
+[2015/07/07 15:49:41]: Report key 20150707154844:  DATABASE FILE   : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_force_v51A-001/test/db/derivatives_force_20150707154844.db 
+[2015/07/07 15:49:41]: Report key 20150707154844:  LAYOUT_FILE     : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_force_v51A-001/test/../layout/derivatives_force.jasper 
+[2015/07/07 15:49:41]: Report key 20150707154844:  PDF FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_force_v51A-001/test/out/derivatives_force_20150707154844.pdf
+[2015/07/07 15:49:41]: Report key 20150707154844:  LOG FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_force_v51A-001/test/log/derivatives_force.log
+[2015/07/07 15:49:41]: Report key 20150707154844: Jasper file : derivatives_force.jasper
+[2015/07/07 15:49:41]: Report key 20150707154844: DB file     : derivatives_force_20150707154844.db
+[2015/07/07 15:49:41]: Report key 20150707154844: Report type : PDF
+[2015/07/07 15:49:41]: Report key 20150707154844: Out file    : derivatives_force_20150707154844.pdf
+[2015/07/07 15:49:41]: Report key 20150707154844: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/07 15:49:41]: Report key 20150707154844: log4j:WARN Please initialize the log4j system properly.
+[2015/07/07 15:49:43]: 
+[2015/07/07 15:49:43]: Process Ended
+[2015/07/07 15:49:41]: Process Started
+[2015/07/07 15:49:41]: Report key 20150707154844:  RPT_FORMAT PDF 
+[2015/07/07 15:49:41]: Report key 20150707154844: 
+[2015/07/07 15:49:43]: 
+[2015/07/07 15:49:43]: Process Ended

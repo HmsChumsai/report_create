@@ -1,0 +1,33 @@
+[2015/07/08 11:02:38]: Process Started
+[2015/07/08 11:02:38]: Report key 20150708110238: DECIDE param : 
+[2015/07/08 11:02:38]: 
+[2015/07/08 11:02:38]: Process Ended
+[2015/07/08 11:02:38]: Process Started
+[2015/07/08 11:02:38]: Report key 20150708110238: Start!!!!: 
+[2015/07/08 11:02:38]: Report key 20150708110238: DB File is /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/audit_customer_v51A5-001/test/db/audit_customer_20150708110238.db
+[2015/07/08 11:02:38]: Report key 20150708110238: Log File :/usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/audit_customer_v51A5-001/test/log/audit_customer.log
+[2015/07/08 11:02:38]: Report key 20150708110238: begin process
+[2015/07/08 11:02:51]: Report key 20150708110238: tradingProfileCHECK HOLDINGS
+[2015/07/08 11:02:51]: Report key 20150708110238: tradingProfileNO CHECK
+[2015/07/08 11:02:51]: Report key 20150708110238:  Cache!
+[2015/07/08 11:02:51]: Report key 20150708110238: Before Create TB
+[2015/07/08 11:02:51]: 
+[2015/07/08 11:02:51]: Process Ended
+[2015/07/08 11:02:51]: Process Started
+[2015/07/08 11:02:51]: Report key 20150708110238:  DATABASE FILE   : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/audit_customer_v51A5-001/test/db/audit_customer_20150708110238.db 
+[2015/07/08 11:02:51]: Report key 20150708110238:  LAYOUT_FILE     : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/audit_customer_v51A5-001/test/../layout/audit_customer.jasper 
+[2015/07/08 11:02:51]: Report key 20150708110238:  PDF FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/audit_customer_v51A5-001/test/out/audit_customer_20150708110238.pdf
+[2015/07/08 11:02:51]: Report key 20150708110238:  LOG FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/audit_report/audit_customer_v51A5-001/test/log/audit_customer.log
+[2015/07/08 11:02:51]: Report key 20150708110238: Jasper file : audit_customer.jasper
+[2015/07/08 11:02:51]: Report key 20150708110238: DB file     : audit_customer_20150708110238.db
+[2015/07/08 11:02:51]: Report key 20150708110238: Report type : PDF
+[2015/07/08 11:02:51]: Report key 20150708110238: Out file    : audit_customer_20150708110238.pdf
+[2015/07/08 11:02:52]: Report key 20150708110238: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/08 11:02:52]: Report key 20150708110238: log4j:WARN Please initialize the log4j system properly.
+[2015/07/08 11:02:53]: 
+[2015/07/08 11:02:53]: Process Ended
+[2015/07/08 11:02:51]: Process Started
+[2015/07/08 11:02:51]: Report key 20150708110238:  RPT_FORMAT PDF 
+[2015/07/08 11:02:51]: Report key 20150708110238: 
+[2015/07/08 11:02:53]: 
+[2015/07/08 11:02:53]: Process Ended

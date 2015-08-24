@@ -1,0 +1,54 @@
+[2015/07/06 15:35:17]: Process Started
+[2015/07/06 15:35:17]: Report key 20150706153517: DECIDE param : 
+[2015/07/06 15:35:17]: 
+[2015/07/06 15:35:17]: Process Ended
+[2015/07/06 15:35:17]: Process Started
+[2015/07/06 15:35:17]: Report key 20150706153517: Start!!!!: 
+[2015/07/06 15:35:17]: Report key 20150706153517: DB File is /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_cancel_v51A-001/test/db/derivatives_cancel_20150706153517.db
+[2015/07/06 15:35:17]: Report key 20150706153517: Log File :/usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_cancel_v51A-001/test/log/derivatives_cancel.log
+[2015/07/06 15:35:18]: Report key 20150706153517: begin process
+[2015/07/06 15:35:18]: Report key 20150706153517: ----------------------------------------------------
+[2015/07/06 15:35:18]: Report key 20150706153517: -                   Begin Lua                      -
+[2015/07/06 15:35:18]: Report key 20150706153517: ----------------------------------------------------
+[2015/07/06 15:35:18]: Report key 20150706153517: - Mandator : TSC
+[2015/07/06 15:35:18]: Report key 20150706153517: - Entry from: 
+[2015/07/06 15:35:18]: Report key 20150706153517: - Entry to: 2015-07-06T17:00:00
+[2015/07/06 15:35:18]: Report key 20150706153517: -* Order deposit = 273082-0
+[2015/07/06 15:35:18]: Report key 20150706153517: Order number100715384
+[2015/07/06 15:35:18]: Report key 20150706153517: -* Order deposit = 273082-0
+[2015/07/06 15:35:18]: Report key 20150706153517: Order number100715385
+[2015/07/06 15:35:18]: Report key 20150706153517: -* Order deposit = 273082-0
+[2015/07/06 15:35:18]: Report key 20150706153517: Order number100715386
+[2015/07/06 15:35:18]: Report key 20150706153517: -* Order deposit = 273082-0
+[2015/07/06 15:35:18]: Report key 20150706153517: Order number100715387
+[2015/07/06 15:35:18]: Report key 20150706153517: -* Order deposit = 420360-4
+[2015/07/06 15:35:18]: Report key 20150706153517: Order number100715406
+[2015/07/06 15:35:18]: Report key 20150706153517: -* Order deposit = 420360-4
+[2015/07/06 15:35:18]: Report key 20150706153517: Order number100715415
+[2015/07/06 15:35:18]: Report key 20150706153517: -* Order deposit = 064874-0
+[2015/07/06 15:35:18]: Report key 20150706153517: Order number100715966
+[2015/07/06 15:35:18]: Report key 20150706153517: -* Order deposit = 420360-4
+[2015/07/06 15:35:18]: Report key 20150706153517: Order number100715975
+[2015/07/06 15:35:18]: Report key 20150706153517: ----------------------------------------------------
+[2015/07/06 15:35:18]: Report key 20150706153517: -*                  End Lua                       *-
+[2015/07/06 15:35:18]: Report key 20150706153517: ----------------------------------------------------
+[2015/07/06 15:35:18]: 
+[2015/07/06 15:35:18]: Process Ended
+[2015/07/06 15:35:18]: Process Started
+[2015/07/06 15:35:18]: Report key 20150706153517:  DATABASE FILE   : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_cancel_v51A-001/test/db/derivatives_cancel_20150706153517.db 
+[2015/07/06 15:35:18]: Report key 20150706153517:  LAYOUT_FILE     : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_cancel_v51A-001/test/../layout/derivatives_cancel.jasper 
+[2015/07/06 15:35:18]: Report key 20150706153517:  PDF FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_cancel_v51A-001/test/out/derivatives_cancel_20150706153517.pdf
+[2015/07/06 15:35:18]: Report key 20150706153517:  LOG FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_cancel_v51A-001/test/log/derivatives_cancel.log
+[2015/07/06 15:35:18]: Report key 20150706153517: Jasper file : derivatives_cancel.jasper
+[2015/07/06 15:35:18]: Report key 20150706153517: DB file     : derivatives_cancel_20150706153517.db
+[2015/07/06 15:35:18]: Report key 20150706153517: Report type : PDF
+[2015/07/06 15:35:18]: Report key 20150706153517: Out file    : derivatives_cancel_20150706153517.pdf
+[2015/07/06 15:35:19]: Report key 20150706153517: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/06 15:35:19]: Report key 20150706153517: log4j:WARN Please initialize the log4j system properly.
+[2015/07/06 15:35:20]: 
+[2015/07/06 15:35:20]: Process Ended
+[2015/07/06 15:35:18]: Process Started
+[2015/07/06 15:35:18]: Report key 20150706153517:  RPT_FORMAT PDF 
+[2015/07/06 15:35:18]: Report key 20150706153517: 
+[2015/07/06 15:35:20]: 
+[2015/07/06 15:35:20]: Process Ended

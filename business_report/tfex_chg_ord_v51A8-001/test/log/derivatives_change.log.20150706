@@ -1,0 +1,74 @@
+[2015/07/06 14:32:15]: Process Started
+[2015/07/06 14:32:15]: Report key 20150706143215: DECIDE param : 
+[2015/07/06 14:32:15]: 
+[2015/07/06 14:32:15]: Process Ended
+[2015/07/06 14:32:15]: Process Started
+[2015/07/06 14:32:16]: Report key 20150706143215: Start!!!!: 
+[2015/07/06 14:32:16]: Report key 20150706143215: DB File is /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_change_v51A-001/test/db/derivatives_change_20150706143215.db
+[2015/07/06 14:32:16]: Report key 20150706143215: Log File :/usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_change_v51A-001/test/log/derivatives_change.log
+[2015/07/06 14:32:16]: Report key 20150706143215: begin process
+[2015/07/06 14:32:16]: Report key 20150706143215: ----------------------------------------------------
+[2015/07/06 14:32:16]: Report key 20150706143215: -                   Begin Lua                      -
+[2015/07/06 14:32:16]: Report key 20150706143215: ----------------------------------------------------
+[2015/07/06 14:32:16]: Report key 20150706143215: - Mandator : TSC
+[2015/07/06 14:32:16]: Report key 20150706143215: - Entry from: 
+[2015/07/06 14:32:16]: Report key 20150706143215: - Entry to: 2015-07-06T17:00:00
+[2015/07/06 14:32:16]: Report key 20150706143215: OLD PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: NEW PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: -* Order deposit = 420360-4
+[2015/07/06 14:32:16]: Report key 20150706143215: Order number100715409
+[2015/07/06 14:32:16]: Report key 20150706143215: OLD PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: NEW PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: -* Order deposit = 420360-4
+[2015/07/06 14:32:16]: Report key 20150706143215: Order number100715410
+[2015/07/06 14:32:16]: Report key 20150706143215: OLD PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: NEW PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: -* Order deposit = 420360-4
+[2015/07/06 14:32:16]: Report key 20150706143215: Order number100715411
+[2015/07/06 14:32:16]: Report key 20150706143215: OLD PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: NEW PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: -* Order deposit = 420360-4
+[2015/07/06 14:32:16]: Report key 20150706143215: Order number100715412
+[2015/07/06 14:32:16]: Report key 20150706143215: OLD PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: NEW PUB >>>>>>0
+[2015/07/06 14:32:16]: Report key 20150706143215: -* Order deposit = 420360-4
+[2015/07/06 14:32:16]: Report key 20150706143215: Order number100715415
+[2015/07/06 14:32:17]: Report key 20150706143215: OLD PUB >>>>>>0
+[2015/07/06 14:32:17]: Report key 20150706143215: NEW PUB >>>>>>0
+[2015/07/06 14:32:17]: Report key 20150706143215: -* Order deposit = 420360-4
+[2015/07/06 14:32:17]: Report key 20150706143215: Order number100715421
+[2015/07/06 14:32:17]: Report key 20150706143215: OLD PUB >>>>>>0
+[2015/07/06 14:32:17]: Report key 20150706143215: NEW PUB >>>>>>0
+[2015/07/06 14:32:17]: Report key 20150706143215: -* Order deposit = 274410-4
+[2015/07/06 14:32:17]: Report key 20150706143215: Order number100715682
+[2015/07/06 14:32:17]: Report key 20150706143215: OLD PUB >>>>>>0
+[2015/07/06 14:32:17]: Report key 20150706143215: NEW PUB >>>>>>0
+[2015/07/06 14:32:17]: Report key 20150706143215: -* Order deposit = 420360-4
+[2015/07/06 14:32:17]: Report key 20150706143215: Order number100715973
+[2015/07/06 14:32:17]: Report key 20150706143215: OLD PUB >>>>>>0
+[2015/07/06 14:32:17]: Report key 20150706143215: NEW PUB >>>>>>0
+[2015/07/06 14:32:17]: Report key 20150706143215: -* Order deposit = 420360-4
+[2015/07/06 14:32:17]: Report key 20150706143215: Order number100715974
+[2015/07/06 14:32:17]: Report key 20150706143215: ----------------------------------------------------
+[2015/07/06 14:32:17]: Report key 20150706143215: -*                  End Lua                       *-
+[2015/07/06 14:32:17]: Report key 20150706143215: ----------------------------------------------------
+[2015/07/06 14:32:17]: 
+[2015/07/06 14:32:17]: Process Ended
+[2015/07/06 14:32:17]: Process Started
+[2015/07/06 14:32:17]: Report key 20150706143215:  DATABASE FILE   : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_change_v51A-001/test/db/derivatives_change_20150706143215.db 
+[2015/07/06 14:32:17]: Report key 20150706143215:  LAYOUT_FILE     : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_change_v51A-001/test/../layout/derivatives_change.jasper 
+[2015/07/06 14:32:17]: Report key 20150706143215:  PDF FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_change_v51A-001/test/out/derivatives_change_20150706143215.pdf
+[2015/07/06 14:32:17]: Report key 20150706143215:  LOG FILE        : /usr/local/decide/space-BKKTSC-1/cfg/decide_report/src/business_report/derivatives_change_v51A-001/test/log/derivatives_change.log
+[2015/07/06 14:32:17]: Report key 20150706143215: Jasper file : derivatives_change.jasper
+[2015/07/06 14:32:17]: Report key 20150706143215: DB file     : derivatives_change_20150706143215.db
+[2015/07/06 14:32:17]: Report key 20150706143215: Report type : PDF
+[2015/07/06 14:32:17]: Report key 20150706143215: Out file    : derivatives_change_20150706143215.pdf
+[2015/07/06 14:32:18]: Report key 20150706143215: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/07/06 14:32:18]: Report key 20150706143215: log4j:WARN Please initialize the log4j system properly.
+[2015/07/06 14:32:19]: 
+[2015/07/06 14:32:19]: Process Ended
+[2015/07/06 14:32:17]: Process Started
+[2015/07/06 14:32:17]: Report key 20150706143215:  RPT_FORMAT PDF 
+[2015/07/06 14:32:17]: Report key 20150706143215: 
+[2015/07/06 14:32:19]: 
+[2015/07/06 14:32:19]: Process Ended
