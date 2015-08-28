@@ -1,0 +1,898 @@
+[2015/08/28 13:34:33]: Process Started
+[2015/08/28 13:34:33]: Report key 20150828133433_48: DECIDE param : --depositid 1584 --format PDF --from 2015-06-07T17:00:00 --to 2015-06-08T16:59:00
+[2015/08/28 13:34:33]: 
+[2015/08/28 13:34:33]: Process Ended
+[2015/08/28 13:34:33]: Process Started
+[2015/08/28 13:34:33]: Report key 20150828133433_6: DECIDE param : --depositid 1584 --format PDF --from 2015-06-09T17:00:00 --to 2015-06-10T15:59:00
+[2015/08/28 13:34:33]: 
+[2015/08/28 13:34:33]: Process Ended
+[2015/08/28 13:34:33]: Process Started
+[2015/08/28 13:34:33]: Report key 20150828133433_46: DECIDE param : --depositid 1584 --format PDF --from 2015-06-08T17:00:00 --to 2015-06-09T16:59:00
+[2015/08/28 13:34:33]: 
+[2015/08/28 13:34:33]: Process Ended
+[2015/08/28 13:34:33]: Process Started
+[2015/08/28 13:34:33]: Report key 20150828133433_48: depositId: 1584
+[2015/08/28 13:34:33]: Report key 20150828133433_48: entryFrom: 2015-06-07T17:00:00
+[2015/08/28 13:34:33]: Report key 20150828133433_48: entryTo: 2015-06-08T16:59:00
+[2015/08/28 13:34:33]: Report key 20150828133433_48: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:33]: Report key 20150828133433_48: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133433_48.db
+[2015/08/28 13:34:33]: Report key 20150828133433_48: format: PDF
+[2015/08/28 13:34:34]: Report key 20150828133433_48: ----------- Start getDeposit --------
+[2015/08/28 13:34:34]: Report key 20150828133433_48: ----------- Start getOrderList--------
+[2015/08/28 13:34:34]: Report key 20150828133433_48: set seq
+[2015/08/28 13:34:34]: Report key 20150828133433_48: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_48: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_48: ----------- End getOrderList--------
+[2015/08/28 13:34:34]: Report key 20150828133433_48: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:34:34]: 
+[2015/08/28 13:34:34]: Process Ended
+[2015/08/28 13:34:33]: Process Started
+[2015/08/28 13:34:33]: Report key 20150828133433_6: depositId: 1584
+[2015/08/28 13:34:33]: Report key 20150828133433_6: entryFrom: 2015-06-09T17:00:00
+[2015/08/28 13:34:33]: Report key 20150828133433_6: entryTo: 2015-06-10T15:59:00
+[2015/08/28 13:34:33]: Report key 20150828133433_6: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:33]: Report key 20150828133433_6: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133433_6.db
+[2015/08/28 13:34:33]: Report key 20150828133433_6: format: PDF
+[2015/08/28 13:34:34]: Report key 20150828133433_6: ----------- Start getDeposit --------
+[2015/08/28 13:34:34]: Report key 20150828133433_6: ----------- Start getOrderList--------
+[2015/08/28 13:34:34]: Report key 20150828133433_6: set seq
+[2015/08/28 13:34:34]: Report key 20150828133433_6: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_6: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_6: ----------- End getOrderList--------
+[2015/08/28 13:34:34]: Report key 20150828133433_6: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:34:34]: 
+[2015/08/28 13:34:34]: Process Ended
+[2015/08/28 13:34:34]: Process Started
+[2015/08/28 13:34:34]: Report key 20150828133433_48: Create a report database completed.
+[2015/08/28 13:34:34]: 
+[2015/08/28 13:34:34]: Process Ended
+[2015/08/28 13:34:34]: Process Started
+[2015/08/28 13:34:34]: Report key 20150828133433_6: Create a report database completed.
+[2015/08/28 13:34:34]: 
+[2015/08/28 13:34:34]: Process Ended
+[2015/08/28 13:34:34]: Process Started
+[2015/08/28 13:34:34]: Report key 20150828133433_6:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133433_6.db 
+[2015/08/28 13:34:34]: Report key 20150828133433_6:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:34:34]: Report key 20150828133433_6:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133433_6.pdf
+[2015/08/28 13:34:34]: Report key 20150828133433_6:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:34]: Report key 20150828133433_6: Jasper file : TSC-D5.jasper
+[2015/08/28 13:34:34]: Report key 20150828133433_6: DB file     : TSC-D5_20150828133433_6.db
+[2015/08/28 13:34:34]: Report key 20150828133433_6: Report type : PDF
+[2015/08/28 13:34:34]: Report key 20150828133433_6: Out file    : TSC-D5_20150828133433_6.pdf
+[2015/08/28 13:34:34]: Report key 20150828133433_6: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:34:34]: Report key 20150828133433_6: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:34:36]: 
+[2015/08/28 13:34:36]: Process Ended
+[2015/08/28 13:34:34]: Process Started
+[2015/08/28 13:34:34]: Report key 20150828133433_6: 
+[2015/08/28 13:34:34]: Report key 20150828133433_6: RPT_FORMAT     : PDF 
+[2015/08/28 13:34:34]: Report key 20150828133433_6: RPT_NUM_RECORD : 1 
+[2015/08/28 13:34:34]: Report key 20150828133433_6: 
+[2015/08/28 13:34:36]: 
+[2015/08/28 13:34:36]: Process Ended
+[2015/08/28 13:34:36]: Process Started
+[2015/08/28 13:34:36]: Report key 20150828133433_6: Successed
+[2015/08/28 13:34:36]: 
+[2015/08/28 13:34:36]: Process Ended
+[2015/08/28 13:34:34]: Process Started
+[2015/08/28 13:34:34]: Report key 20150828133433_48:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133433_48.db 
+[2015/08/28 13:34:34]: Report key 20150828133433_48:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:34:34]: Report key 20150828133433_48:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133433_48.pdf
+[2015/08/28 13:34:34]: Report key 20150828133433_48:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:34]: Report key 20150828133433_48: Jasper file : TSC-D5.jasper
+[2015/08/28 13:34:34]: Report key 20150828133433_48: DB file     : TSC-D5_20150828133433_48.db
+[2015/08/28 13:34:34]: Report key 20150828133433_48: Report type : PDF
+[2015/08/28 13:34:34]: Report key 20150828133433_48: Out file    : TSC-D5_20150828133433_48.pdf
+[2015/08/28 13:34:34]: Report key 20150828133433_48: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:34:34]: Report key 20150828133433_48: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:34:36]: 
+[2015/08/28 13:34:36]: Process Ended
+[2015/08/28 13:34:34]: Process Started
+[2015/08/28 13:34:34]: Report key 20150828133433_48: 
+[2015/08/28 13:34:34]: Report key 20150828133433_48: RPT_FORMAT     : PDF 
+[2015/08/28 13:34:34]: Report key 20150828133433_48: RPT_NUM_RECORD : 1 
+[2015/08/28 13:34:34]: Report key 20150828133433_48: 
+[2015/08/28 13:34:36]: 
+[2015/08/28 13:34:36]: Process Ended
+[2015/08/28 13:34:36]: Process Started
+[2015/08/28 13:34:36]: Report key 20150828133433_48: Successed
+[2015/08/28 13:34:36]: 
+[2015/08/28 13:34:36]: Process Ended
+[2015/08/28 13:34:33]: Process Started
+[2015/08/28 13:34:33]: Report key 20150828133433_46: depositId: 1584
+[2015/08/28 13:34:33]: Report key 20150828133433_46: entryFrom: 2015-06-08T17:00:00
+[2015/08/28 13:34:33]: Report key 20150828133433_46: entryTo: 2015-06-09T16:59:00
+[2015/08/28 13:34:33]: Report key 20150828133433_46: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:33]: Report key 20150828133433_46: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133433_46.db
+[2015/08/28 13:34:33]: Report key 20150828133433_46: format: PDF
+[2015/08/28 13:34:34]: Report key 20150828133433_46: ----------- Start getDeposit --------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: ----------- Start getOrderList--------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	300
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100644425	PTT	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	300
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100644438	PTT	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	500
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100644455	PTT	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	300
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100644464	PTT	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	300
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100644475	PTT	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	200
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100643654	BBL	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	300
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100643653	BBL	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	300
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100643655	PTT	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	100
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100643660	PTT	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	200
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100643665	THAI	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	300
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100643670	THAI	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	400
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100643671	THAI	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	300
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100643680	BBL	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: match_qty	1000
+[2015/08/28 13:34:34]: Report key 20150828133433_46: -----------------Start Order :	100643019	TOP	-------------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: All Deal Seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: {}
+[2015/08/28 13:34:34]: Report key 20150828133433_46: set seq
+[2015/08/28 13:34:34]: Report key 20150828133433_46: { PTT=1 }
+[2015/08/28 13:34:34]: Report key 20150828133433_46: { BBL=1, PTT=2, THAI=3, TOP=4 }
+[2015/08/28 13:34:34]: Report key 20150828133433_46: ----------- End getOrderList--------
+[2015/08/28 13:34:34]: Report key 20150828133433_46: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:34:36]: 
+[2015/08/28 13:34:36]: Process Ended
+[2015/08/28 13:34:36]: Process Started
+[2015/08/28 13:34:36]: Report key 20150828133433_46: Create a report database completed.
+[2015/08/28 13:34:36]: 
+[2015/08/28 13:34:36]: Process Ended
+[2015/08/28 13:34:36]: Process Started
+[2015/08/28 13:34:36]: Report key 20150828133433_46:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133433_46.db 
+[2015/08/28 13:34:36]: Report key 20150828133433_46:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:34:36]: Report key 20150828133433_46:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133433_46.pdf
+[2015/08/28 13:34:36]: Report key 20150828133433_46:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:36]: Report key 20150828133433_46: Jasper file : TSC-D5.jasper
+[2015/08/28 13:34:36]: Report key 20150828133433_46: DB file     : TSC-D5_20150828133433_46.db
+[2015/08/28 13:34:36]: Report key 20150828133433_46: Report type : PDF
+[2015/08/28 13:34:36]: Report key 20150828133433_46: Out file    : TSC-D5_20150828133433_46.pdf
+[2015/08/28 13:34:36]: Report key 20150828133433_46: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:34:36]: Report key 20150828133433_46: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:34:38]: 
+[2015/08/28 13:34:38]: Process Ended
+[2015/08/28 13:34:36]: Process Started
+[2015/08/28 13:34:36]: Report key 20150828133433_46: 
+[2015/08/28 13:34:36]: Report key 20150828133433_46: RPT_FORMAT     : PDF 
+[2015/08/28 13:34:36]: Report key 20150828133433_46: RPT_NUM_RECORD : 1 
+[2015/08/28 13:34:36]: Report key 20150828133433_46: 
+[2015/08/28 13:34:38]: 
+[2015/08/28 13:34:38]: Process Ended
+[2015/08/28 13:34:38]: Process Started
+[2015/08/28 13:34:38]: Report key 20150828133433_46: Successed
+[2015/08/28 13:34:38]: 
+[2015/08/28 13:34:38]: Process Ended
+[2015/08/28 13:34:47]: Process Started
+[2015/08/28 13:34:47]: Report key 20150828133447_70: DECIDE param : --depositid 1584 --format PDF --from 2015-06-07T17:00:00 --to 2015-06-08T16:59:00
+[2015/08/28 13:34:47]: 
+[2015/08/28 13:34:47]: Process Ended
+[2015/08/28 13:34:47]: Process Started
+[2015/08/28 13:34:47]: Report key 20150828133447_15: DECIDE param : --depositid 1584 --format PDF --from 2015-06-08T17:00:00 --to 2015-06-09T16:59:00
+[2015/08/28 13:34:47]: 
+[2015/08/28 13:34:47]: Process Ended
+[2015/08/28 13:34:47]: Process Started
+[2015/08/28 13:34:47]: Report key 20150828133447_52: DECIDE param : --depositid 1584 --format PDF --from 2015-06-09T17:00:00 --to 2015-06-10T16:59:00
+[2015/08/28 13:34:47]: 
+[2015/08/28 13:34:47]: Process Ended
+[2015/08/28 13:34:47]: Process Started
+[2015/08/28 13:34:47]: Report key 20150828133447_59: DECIDE param : --depositid 1584 --format PDF --from 2015-06-10T17:00:00 --to 2015-06-11T15:59:00
+[2015/08/28 13:34:47]: 
+[2015/08/28 13:34:47]: Process Ended
+[2015/08/28 13:34:47]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_70: depositId: 1584
+[2015/08/28 13:34:48]: Report key 20150828133447_70: entryFrom: 2015-06-07T17:00:00
+[2015/08/28 13:34:48]: Report key 20150828133447_70: entryTo: 2015-06-08T16:59:00
+[2015/08/28 13:34:48]: Report key 20150828133447_70: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:48]: Report key 20150828133447_70: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133447_70.db
+[2015/08/28 13:34:48]: Report key 20150828133447_70: format: PDF
+[2015/08/28 13:34:48]: Report key 20150828133447_70: ----------- Start getDeposit --------
+[2015/08/28 13:34:48]: Report key 20150828133447_70: ----------- Start getOrderList--------
+[2015/08/28 13:34:48]: Report key 20150828133447_70: set seq
+[2015/08/28 13:34:48]: Report key 20150828133447_70: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_70: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_70: ----------- End getOrderList--------
+[2015/08/28 13:34:48]: Report key 20150828133447_70: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:34:48]: 
+[2015/08/28 13:34:48]: Process Ended
+[2015/08/28 13:34:48]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_70: Create a report database completed.
+[2015/08/28 13:34:48]: 
+[2015/08/28 13:34:48]: Process Ended
+[2015/08/28 13:34:47]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_52: depositId: 1584
+[2015/08/28 13:34:48]: Report key 20150828133447_52: entryFrom: 2015-06-09T17:00:00
+[2015/08/28 13:34:48]: Report key 20150828133447_52: entryTo: 2015-06-10T16:59:00
+[2015/08/28 13:34:48]: Report key 20150828133447_52: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:48]: Report key 20150828133447_52: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133447_52.db
+[2015/08/28 13:34:48]: Report key 20150828133447_52: format: PDF
+[2015/08/28 13:34:48]: Report key 20150828133447_52: ----------- Start getDeposit --------
+[2015/08/28 13:34:48]: Report key 20150828133447_52: ----------- Start getOrderList--------
+[2015/08/28 13:34:48]: Report key 20150828133447_52: set seq
+[2015/08/28 13:34:48]: Report key 20150828133447_52: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_52: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_52: ----------- End getOrderList--------
+[2015/08/28 13:34:48]: Report key 20150828133447_52: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:34:48]: 
+[2015/08/28 13:34:48]: Process Ended
+[2015/08/28 13:34:48]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_52: Create a report database completed.
+[2015/08/28 13:34:48]: 
+[2015/08/28 13:34:48]: Process Ended
+[2015/08/28 13:34:47]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_59: depositId: 1584
+[2015/08/28 13:34:48]: Report key 20150828133447_59: entryFrom: 2015-06-10T17:00:00
+[2015/08/28 13:34:48]: Report key 20150828133447_59: entryTo: 2015-06-11T15:59:00
+[2015/08/28 13:34:48]: Report key 20150828133447_59: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:48]: Report key 20150828133447_59: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133447_59.db
+[2015/08/28 13:34:48]: Report key 20150828133447_59: format: PDF
+[2015/08/28 13:34:48]: Report key 20150828133447_59: ----------- Start getDeposit --------
+[2015/08/28 13:34:48]: Report key 20150828133447_59: ----------- Start getOrderList--------
+[2015/08/28 13:34:48]: Report key 20150828133447_59: set seq
+[2015/08/28 13:34:48]: Report key 20150828133447_59: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_59: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_59: ----------- End getOrderList--------
+[2015/08/28 13:34:48]: Report key 20150828133447_59: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:34:49]: 
+[2015/08/28 13:34:49]: Process Ended
+[2015/08/28 13:34:49]: Process Started
+[2015/08/28 13:34:49]: Report key 20150828133447_59: Create a report database completed.
+[2015/08/28 13:34:49]: 
+[2015/08/28 13:34:49]: Process Ended
+[2015/08/28 13:34:47]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_15: depositId: 1584
+[2015/08/28 13:34:48]: Report key 20150828133447_15: entryFrom: 2015-06-08T17:00:00
+[2015/08/28 13:34:48]: Report key 20150828133447_15: entryTo: 2015-06-09T16:59:00
+[2015/08/28 13:34:48]: Report key 20150828133447_15: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:48]: Report key 20150828133447_15: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133447_15.db
+[2015/08/28 13:34:48]: Report key 20150828133447_15: format: PDF
+[2015/08/28 13:34:48]: Report key 20150828133447_15: ----------- Start getDeposit --------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: ----------- Start getOrderList--------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	300
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100644425	PTT	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	300
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100644438	PTT	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	500
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100644455	PTT	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	300
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100644464	PTT	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	300
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100644475	PTT	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	200
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100643654	BBL	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	300
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100643653	BBL	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	300
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100643655	PTT	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	100
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100643660	PTT	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	200
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100643665	THAI	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	300
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100643670	THAI	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	400
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100643671	THAI	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	300
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100643680	BBL	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: match_qty	1000
+[2015/08/28 13:34:48]: Report key 20150828133447_15: -----------------Start Order :	100643019	TOP	-------------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: All Deal Seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: {}
+[2015/08/28 13:34:48]: Report key 20150828133447_15: set seq
+[2015/08/28 13:34:48]: Report key 20150828133447_15: { PTT=1 }
+[2015/08/28 13:34:48]: Report key 20150828133447_15: { BBL=1, PTT=2, THAI=3, TOP=4 }
+[2015/08/28 13:34:48]: Report key 20150828133447_15: ----------- End getOrderList--------
+[2015/08/28 13:34:48]: Report key 20150828133447_15: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:34:49]: 
+[2015/08/28 13:34:49]: Process Ended
+[2015/08/28 13:34:49]: Process Started
+[2015/08/28 13:34:49]: Report key 20150828133447_15: Create a report database completed.
+[2015/08/28 13:34:49]: 
+[2015/08/28 13:34:49]: Process Ended
+[2015/08/28 13:34:48]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_70:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133447_70.db 
+[2015/08/28 13:34:48]: Report key 20150828133447_70:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:34:48]: Report key 20150828133447_70:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133447_70.pdf
+[2015/08/28 13:34:48]: Report key 20150828133447_70:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:48]: Report key 20150828133447_70: Jasper file : TSC-D5.jasper
+[2015/08/28 13:34:48]: Report key 20150828133447_70: DB file     : TSC-D5_20150828133447_70.db
+[2015/08/28 13:34:48]: Report key 20150828133447_70: Report type : PDF
+[2015/08/28 13:34:48]: Report key 20150828133447_70: Out file    : TSC-D5_20150828133447_70.pdf
+[2015/08/28 13:34:49]: Report key 20150828133447_70: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:34:49]: Report key 20150828133447_70: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:34:50]: 
+[2015/08/28 13:34:50]: Process Ended
+[2015/08/28 13:34:48]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_70: 
+[2015/08/28 13:34:48]: Report key 20150828133447_70: RPT_FORMAT     : PDF 
+[2015/08/28 13:34:48]: Report key 20150828133447_70: RPT_NUM_RECORD : 1 
+[2015/08/28 13:34:48]: Report key 20150828133447_70: 
+[2015/08/28 13:34:50]: 
+[2015/08/28 13:34:50]: Process Ended
+[2015/08/28 13:34:50]: Process Started
+[2015/08/28 13:34:50]: Report key 20150828133447_70: Successed
+[2015/08/28 13:34:50]: 
+[2015/08/28 13:34:50]: Process Ended
+[2015/08/28 13:34:48]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_52:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133447_52.db 
+[2015/08/28 13:34:48]: Report key 20150828133447_52:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:34:48]: Report key 20150828133447_52:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133447_52.pdf
+[2015/08/28 13:34:48]: Report key 20150828133447_52:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:49]: Report key 20150828133447_52: Jasper file : TSC-D5.jasper
+[2015/08/28 13:34:49]: Report key 20150828133447_52: DB file     : TSC-D5_20150828133447_52.db
+[2015/08/28 13:34:49]: Report key 20150828133447_52: Report type : PDF
+[2015/08/28 13:34:49]: Report key 20150828133447_52: Out file    : TSC-D5_20150828133447_52.pdf
+[2015/08/28 13:34:49]: Report key 20150828133447_52: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:34:49]: Report key 20150828133447_52: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:34:50]: 
+[2015/08/28 13:34:50]: Process Ended
+[2015/08/28 13:34:48]: Process Started
+[2015/08/28 13:34:48]: Report key 20150828133447_52: 
+[2015/08/28 13:34:48]: Report key 20150828133447_52: RPT_FORMAT     : PDF 
+[2015/08/28 13:34:48]: Report key 20150828133447_52: RPT_NUM_RECORD : 1 
+[2015/08/28 13:34:48]: Report key 20150828133447_52: 
+[2015/08/28 13:34:50]: 
+[2015/08/28 13:34:50]: Process Ended
+[2015/08/28 13:34:50]: Process Started
+[2015/08/28 13:34:50]: Report key 20150828133447_52: Successed
+[2015/08/28 13:34:50]: 
+[2015/08/28 13:34:50]: Process Ended
+[2015/08/28 13:34:49]: Process Started
+[2015/08/28 13:34:49]: Report key 20150828133447_59:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133447_59.db 
+[2015/08/28 13:34:49]: Report key 20150828133447_59:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:34:49]: Report key 20150828133447_59:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133447_59.pdf
+[2015/08/28 13:34:49]: Report key 20150828133447_59:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:49]: Report key 20150828133447_59: Jasper file : TSC-D5.jasper
+[2015/08/28 13:34:49]: Report key 20150828133447_59: DB file     : TSC-D5_20150828133447_59.db
+[2015/08/28 13:34:49]: Report key 20150828133447_59: Report type : PDF
+[2015/08/28 13:34:49]: Report key 20150828133447_59: Out file    : TSC-D5_20150828133447_59.pdf
+[2015/08/28 13:34:49]: Report key 20150828133447_59: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:34:49]: Report key 20150828133447_59: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:34:50]: 
+[2015/08/28 13:34:50]: Process Ended
+[2015/08/28 13:34:49]: Process Started
+[2015/08/28 13:34:49]: Report key 20150828133447_59: 
+[2015/08/28 13:34:49]: Report key 20150828133447_59: RPT_FORMAT     : PDF 
+[2015/08/28 13:34:49]: Report key 20150828133447_59: RPT_NUM_RECORD : 1 
+[2015/08/28 13:34:49]: Report key 20150828133447_59: 
+[2015/08/28 13:34:50]: 
+[2015/08/28 13:34:50]: Process Ended
+[2015/08/28 13:34:50]: Process Started
+[2015/08/28 13:34:51]: Report key 20150828133447_59: Successed
+[2015/08/28 13:34:51]: 
+[2015/08/28 13:34:51]: Process Ended
+[2015/08/28 13:34:49]: Process Started
+[2015/08/28 13:34:49]: Report key 20150828133447_15:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133447_15.db 
+[2015/08/28 13:34:49]: Report key 20150828133447_15:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:34:49]: Report key 20150828133447_15:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133447_15.pdf
+[2015/08/28 13:34:49]: Report key 20150828133447_15:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:34:49]: Report key 20150828133447_15: Jasper file : TSC-D5.jasper
+[2015/08/28 13:34:49]: Report key 20150828133447_15: DB file     : TSC-D5_20150828133447_15.db
+[2015/08/28 13:34:49]: Report key 20150828133447_15: Report type : PDF
+[2015/08/28 13:34:49]: Report key 20150828133447_15: Out file    : TSC-D5_20150828133447_15.pdf
+[2015/08/28 13:34:50]: Report key 20150828133447_15: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:34:50]: Report key 20150828133447_15: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:34:51]: 
+[2015/08/28 13:34:51]: Process Ended
+[2015/08/28 13:34:49]: Process Started
+[2015/08/28 13:34:49]: Report key 20150828133447_15: 
+[2015/08/28 13:34:49]: Report key 20150828133447_15: RPT_FORMAT     : PDF 
+[2015/08/28 13:34:49]: Report key 20150828133447_15: RPT_NUM_RECORD : 1 
+[2015/08/28 13:34:49]: Report key 20150828133447_15: 
+[2015/08/28 13:34:51]: 
+[2015/08/28 13:34:51]: Process Ended
+[2015/08/28 13:34:51]: Process Started
+[2015/08/28 13:34:51]: Report key 20150828133447_15: Successed
+[2015/08/28 13:34:51]: 
+[2015/08/28 13:34:51]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_81: DECIDE param : --depositid 1584 --format PDF --from 2015-05-31T17:00:00 --to 2015-06-02T16:59:00
+[2015/08/28 13:35:22]: 
+[2015/08/28 13:35:22]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_1: DECIDE param : --depositid 1584 --format PDF --from 2015-06-02T17:00:00 --to 2015-06-03T16:59:00
+[2015/08/28 13:35:22]: 
+[2015/08/28 13:35:22]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_60: DECIDE param : --depositid 1584 --format PDF --from 2015-06-03T17:00:00 --to 2015-06-04T16:59:00
+[2015/08/28 13:35:22]: 
+[2015/08/28 13:35:22]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_86: DECIDE param : --depositid 1584 --format PDF --from 2015-06-05T16:59:00 --to 2015-06-07T15:59:00
+[2015/08/28 13:35:22]: 
+[2015/08/28 13:35:22]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_59: DECIDE param : --depositid 1584 --format PDF --from 2015-06-04T17:00:00 --to 2015-06-05T16:59:00
+[2015/08/28 13:35:22]: 
+[2015/08/28 13:35:22]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_81: depositId: 1584
+[2015/08/28 13:35:22]: Report key 20150828133522_81: entryFrom: 2015-05-31T17:00:00
+[2015/08/28 13:35:22]: Report key 20150828133522_81: entryTo: 2015-06-02T16:59:00
+[2015/08/28 13:35:22]: Report key 20150828133522_81: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:22]: Report key 20150828133522_81: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_81.db
+[2015/08/28 13:35:22]: Report key 20150828133522_81: format: PDF
+[2015/08/28 13:35:22]: Report key 20150828133522_81: ----------- Start getDeposit --------
+[2015/08/28 13:35:22]: Report key 20150828133522_81: ----------- Start getOrderList--------
+[2015/08/28 13:35:22]: Report key 20150828133522_81: set seq
+[2015/08/28 13:35:22]: Report key 20150828133522_81: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_81: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_81: ----------- End getOrderList--------
+[2015/08/28 13:35:22]: Report key 20150828133522_81: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:35:22]: 
+[2015/08/28 13:35:22]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_81: Create a report database completed.
+[2015/08/28 13:35:22]: 
+[2015/08/28 13:35:22]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_86: depositId: 1584
+[2015/08/28 13:35:22]: Report key 20150828133522_86: entryFrom: 2015-06-05T16:59:00
+[2015/08/28 13:35:22]: Report key 20150828133522_86: entryTo: 2015-06-07T15:59:00
+[2015/08/28 13:35:22]: Report key 20150828133522_86: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:22]: Report key 20150828133522_86: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_86.db
+[2015/08/28 13:35:22]: Report key 20150828133522_86: format: PDF
+[2015/08/28 13:35:22]: Report key 20150828133522_86: ----------- Start getDeposit --------
+[2015/08/28 13:35:22]: Report key 20150828133522_86: ----------- Start getOrderList--------
+[2015/08/28 13:35:22]: Report key 20150828133522_86: set seq
+[2015/08/28 13:35:22]: Report key 20150828133522_86: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_86: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_86: ----------- End getOrderList--------
+[2015/08/28 13:35:22]: Report key 20150828133522_86: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:35:22]: 
+[2015/08/28 13:35:22]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_86: Create a report database completed.
+[2015/08/28 13:35:22]: 
+[2015/08/28 13:35:22]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_59: depositId: 1584
+[2015/08/28 13:35:22]: Report key 20150828133522_59: entryFrom: 2015-06-04T17:00:00
+[2015/08/28 13:35:22]: Report key 20150828133522_59: entryTo: 2015-06-05T16:59:00
+[2015/08/28 13:35:22]: Report key 20150828133522_59: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:22]: Report key 20150828133522_59: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_59.db
+[2015/08/28 13:35:22]: Report key 20150828133522_59: format: PDF
+[2015/08/28 13:35:22]: Report key 20150828133522_59: ----------- Start getDeposit --------
+[2015/08/28 13:35:22]: Report key 20150828133522_59: ----------- Start getOrderList--------
+[2015/08/28 13:35:22]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_59: match_qty	1000
+[2015/08/28 13:35:22]: Report key 20150828133522_59: -----------------Start Order :	100642622	THAI	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_59: match_qty	200
+[2015/08/28 13:35:22]: Report key 20150828133522_59: -----------------Start Order :	100642583	PTT	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_59: match_qty	200
+[2015/08/28 13:35:22]: Report key 20150828133522_59: -----------------Start Order :	100642584	PTT	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_59: match_qty	200
+[2015/08/28 13:35:22]: Report key 20150828133522_59: -----------------Start Order :	100642586	PTT	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	500
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642587	PTT	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	300
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642588	PTT	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	20000
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642592	PTT	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	500
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642593	PTT	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	500
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642594	PTT	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	5000
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642596	PTT	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	100
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642597	TOP	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	200
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642598	TOP	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	300
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642599	TOP	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	300
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642600	TOP	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	400
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642601	TOP	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	400
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642602	TOP	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	1000
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642611	NPARK	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	1000
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642612	NPARK	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	1000
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642613	NPARK	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	1000
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642614	NPARK	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: match_qty	500
+[2015/08/28 13:35:23]: Report key 20150828133522_59: -----------------Start Order :	100642595	PTT	-------------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_60: depositId: 1584
+[2015/08/28 13:35:22]: Report key 20150828133522_60: entryFrom: 2015-06-03T17:00:00
+[2015/08/28 13:35:22]: Report key 20150828133522_60: entryTo: 2015-06-04T16:59:00
+[2015/08/28 13:35:22]: Report key 20150828133522_60: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:22]: Report key 20150828133522_60: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_60.db
+[2015/08/28 13:35:22]: Report key 20150828133522_60: format: PDF
+[2015/08/28 13:35:22]: Report key 20150828133522_60: ----------- Start getDeposit --------
+[2015/08/28 13:35:22]: Report key 20150828133522_60: ----------- Start getOrderList--------
+[2015/08/28 13:35:22]: Report key 20150828133522_60: match_qty	100
+[2015/08/28 13:35:22]: Report key 20150828133522_60: -----------------Start Order :	100642482	BBL	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: match_qty	100
+[2015/08/28 13:35:22]: Report key 20150828133522_60: -----------------Start Order :	100641283	BBL	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: match_qty	300
+[2015/08/28 13:35:22]: Report key 20150828133522_60: -----------------Start Order :	100641293	BBL	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: match_qty	100
+[2015/08/28 13:35:22]: Report key 20150828133522_60: -----------------Start Order :	100641282	BBL	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_60: set seq
+[2015/08/28 13:35:22]: Report key 20150828133522_60: { BBL=1 }
+[2015/08/28 13:35:22]: Report key 20150828133522_60: { BBL=1 }
+[2015/08/28 13:35:22]: Report key 20150828133522_60: ----------- End getOrderList--------
+[2015/08/28 13:35:22]: Report key 20150828133522_60: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:35:23]: 
+[2015/08/28 13:35:23]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_1: depositId: 1584
+[2015/08/28 13:35:22]: Report key 20150828133522_1: entryFrom: 2015-06-02T17:00:00
+[2015/08/28 13:35:22]: Report key 20150828133522_1: entryTo: 2015-06-03T16:59:00
+[2015/08/28 13:35:22]: Report key 20150828133522_1: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:22]: Report key 20150828133522_1: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_1.db
+[2015/08/28 13:35:22]: Report key 20150828133522_1: format: PDF
+[2015/08/28 13:35:22]: Report key 20150828133522_1: ----------- Start getDeposit --------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: ----------- Start getOrderList--------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	100
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641283	BBL	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	300
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641293	BBL	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	100
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641228	PTT	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	200
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641229	PTT	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	300
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641231	PTT	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	300
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641246	PTT	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	100
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641247	PTT	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	100
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641248	PTT	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	300
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641249	PTT	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: match_qty	100
+[2015/08/28 13:35:22]: Report key 20150828133522_1: -----------------Start Order :	100641282	BBL	-------------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: All Deal Seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: {}
+[2015/08/28 13:35:22]: Report key 20150828133522_1: set seq
+[2015/08/28 13:35:22]: Report key 20150828133522_1: { PTT=1 }
+[2015/08/28 13:35:22]: Report key 20150828133522_1: { BBL=1, PTT=2 }
+[2015/08/28 13:35:22]: Report key 20150828133522_1: ----------- End getOrderList--------
+[2015/08/28 13:35:22]: Report key 20150828133522_1: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:35:23]: 
+[2015/08/28 13:35:23]: Process Ended
+[2015/08/28 13:35:23]: Process Started
+[2015/08/28 13:35:23]: Report key 20150828133522_60: Create a report database completed.
+[2015/08/28 13:35:23]: 
+[2015/08/28 13:35:23]: Process Ended
+[2015/08/28 13:35:23]: Process Started
+[2015/08/28 13:35:23]: Report key 20150828133522_1: Create a report database completed.
+[2015/08/28 13:35:23]: 
+[2015/08/28 13:35:23]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_81:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_81.db 
+[2015/08/28 13:35:22]: Report key 20150828133522_81:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:35:22]: Report key 20150828133522_81:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133522_81.pdf
+[2015/08/28 13:35:22]: Report key 20150828133522_81:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:22]: Report key 20150828133522_81: Jasper file : TSC-D5.jasper
+[2015/08/28 13:35:22]: Report key 20150828133522_81: DB file     : TSC-D5_20150828133522_81.db
+[2015/08/28 13:35:22]: Report key 20150828133522_81: Report type : PDF
+[2015/08/28 13:35:22]: Report key 20150828133522_81: Out file    : TSC-D5_20150828133522_81.pdf
+[2015/08/28 13:35:23]: Report key 20150828133522_81: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:35:23]: Report key 20150828133522_81: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:35:24]: 
+[2015/08/28 13:35:24]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_81: 
+[2015/08/28 13:35:22]: Report key 20150828133522_81: RPT_FORMAT     : PDF 
+[2015/08/28 13:35:22]: Report key 20150828133522_81: RPT_NUM_RECORD : 1 
+[2015/08/28 13:35:22]: Report key 20150828133522_81: 
+[2015/08/28 13:35:24]: 
+[2015/08/28 13:35:24]: Process Ended
+[2015/08/28 13:35:24]: Process Started
+[2015/08/28 13:35:24]: Report key 20150828133522_81: Successed
+[2015/08/28 13:35:24]: 
+[2015/08/28 13:35:24]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_86:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_86.db 
+[2015/08/28 13:35:22]: Report key 20150828133522_86:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:35:22]: Report key 20150828133522_86:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133522_86.pdf
+[2015/08/28 13:35:22]: Report key 20150828133522_86:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:23]: Report key 20150828133522_86: Jasper file : TSC-D5.jasper
+[2015/08/28 13:35:23]: Report key 20150828133522_86: DB file     : TSC-D5_20150828133522_86.db
+[2015/08/28 13:35:23]: Report key 20150828133522_86: Report type : PDF
+[2015/08/28 13:35:23]: Report key 20150828133522_86: Out file    : TSC-D5_20150828133522_86.pdf
+[2015/08/28 13:35:23]: Report key 20150828133522_86: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:35:23]: Report key 20150828133522_86: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:35:24]: 
+[2015/08/28 13:35:24]: Process Ended
+[2015/08/28 13:35:22]: Process Started
+[2015/08/28 13:35:22]: Report key 20150828133522_86: 
+[2015/08/28 13:35:22]: Report key 20150828133522_86: RPT_FORMAT     : PDF 
+[2015/08/28 13:35:22]: Report key 20150828133522_86: RPT_NUM_RECORD : 1 
+[2015/08/28 13:35:22]: Report key 20150828133522_86: 
+[2015/08/28 13:35:24]: 
+[2015/08/28 13:35:24]: Process Ended
+[2015/08/28 13:35:24]: Process Started
+[2015/08/28 13:35:24]: Report key 20150828133522_86: Successed
+[2015/08/28 13:35:24]: 
+[2015/08/28 13:35:24]: Process Ended
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: All Deal Seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: {}
+[2015/08/28 13:35:23]: Report key 20150828133522_59: set seq
+[2015/08/28 13:35:23]: Report key 20150828133522_59: { PTT=1 }
+[2015/08/28 13:35:23]: Report key 20150828133522_59: { NPARK=1, PTT=2, THAI=3, TOP=4 }
+[2015/08/28 13:35:23]: Report key 20150828133522_59: ----------- End getOrderList--------
+[2015/08/28 13:35:23]: Report key 20150828133522_59: --------------Start CreateSchema() -------------- 
+[2015/08/28 13:35:25]: 
+[2015/08/28 13:35:25]: Process Ended
+[2015/08/28 13:35:25]: Process Started
+[2015/08/28 13:35:25]: Report key 20150828133522_59: Create a report database completed.
+[2015/08/28 13:35:25]: 
+[2015/08/28 13:35:25]: Process Ended
+[2015/08/28 13:35:23]: Process Started
+[2015/08/28 13:35:23]: Report key 20150828133522_1:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_1.db 
+[2015/08/28 13:35:23]: Report key 20150828133522_1:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:35:23]: Report key 20150828133522_1:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133522_1.pdf
+[2015/08/28 13:35:23]: Report key 20150828133522_1:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:23]: Report key 20150828133522_1: Jasper file : TSC-D5.jasper
+[2015/08/28 13:35:23]: Report key 20150828133522_1: DB file     : TSC-D5_20150828133522_1.db
+[2015/08/28 13:35:23]: Report key 20150828133522_1: Report type : PDF
+[2015/08/28 13:35:23]: Report key 20150828133522_1: Out file    : TSC-D5_20150828133522_1.pdf
+[2015/08/28 13:35:24]: Report key 20150828133522_1: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:35:24]: Report key 20150828133522_1: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:35:25]: 
+[2015/08/28 13:35:25]: Process Ended
+[2015/08/28 13:35:23]: Process Started
+[2015/08/28 13:35:23]: Report key 20150828133522_1: 
+[2015/08/28 13:35:23]: Report key 20150828133522_1: RPT_FORMAT     : PDF 
+[2015/08/28 13:35:23]: Report key 20150828133522_1: RPT_NUM_RECORD : 1 
+[2015/08/28 13:35:23]: Report key 20150828133522_1: 
+[2015/08/28 13:35:25]: 
+[2015/08/28 13:35:25]: Process Ended
+[2015/08/28 13:35:25]: Process Started
+[2015/08/28 13:35:25]: Report key 20150828133522_1: Successed
+[2015/08/28 13:35:25]: 
+[2015/08/28 13:35:25]: Process Ended
+[2015/08/28 13:35:23]: Process Started
+[2015/08/28 13:35:23]: Report key 20150828133522_60:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_60.db 
+[2015/08/28 13:35:23]: Report key 20150828133522_60:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:35:23]: Report key 20150828133522_60:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133522_60.pdf
+[2015/08/28 13:35:23]: Report key 20150828133522_60:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:23]: Report key 20150828133522_60: Jasper file : TSC-D5.jasper
+[2015/08/28 13:35:23]: Report key 20150828133522_60: DB file     : TSC-D5_20150828133522_60.db
+[2015/08/28 13:35:23]: Report key 20150828133522_60: Report type : PDF
+[2015/08/28 13:35:23]: Report key 20150828133522_60: Out file    : TSC-D5_20150828133522_60.pdf
+[2015/08/28 13:35:24]: Report key 20150828133522_60: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:35:24]: Report key 20150828133522_60: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:35:25]: 
+[2015/08/28 13:35:25]: Process Ended
+[2015/08/28 13:35:23]: Process Started
+[2015/08/28 13:35:23]: Report key 20150828133522_60: 
+[2015/08/28 13:35:23]: Report key 20150828133522_60: RPT_FORMAT     : PDF 
+[2015/08/28 13:35:23]: Report key 20150828133522_60: RPT_NUM_RECORD : 1 
+[2015/08/28 13:35:23]: Report key 20150828133522_60: 
+[2015/08/28 13:35:25]: 
+[2015/08/28 13:35:25]: Process Ended
+[2015/08/28 13:35:25]: Process Started
+[2015/08/28 13:35:25]: Report key 20150828133522_60: Successed
+[2015/08/28 13:35:25]: 
+[2015/08/28 13:35:25]: Process Ended
+[2015/08/28 13:35:25]: Process Started
+[2015/08/28 13:35:25]: Report key 20150828133522_59:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/db/TSC-D5_20150828133522_59.db 
+[2015/08/28 13:35:25]: Report key 20150828133522_59:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/layout/TSC-D5.jasper 
+[2015/08/28 13:35:25]: Report key 20150828133522_59:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D5_20150828133522_59.pdf
+[2015/08/28 13:35:25]: Report key 20150828133522_59:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D5_v51A8-001/log/TSC-D5.log
+[2015/08/28 13:35:25]: Report key 20150828133522_59: Jasper file : TSC-D5.jasper
+[2015/08/28 13:35:25]: Report key 20150828133522_59: DB file     : TSC-D5_20150828133522_59.db
+[2015/08/28 13:35:25]: Report key 20150828133522_59: Report type : PDF
+[2015/08/28 13:35:25]: Report key 20150828133522_59: Out file    : TSC-D5_20150828133522_59.pdf
+[2015/08/28 13:35:25]: Report key 20150828133522_59: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:35:25]: Report key 20150828133522_59: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:35:27]: 
+[2015/08/28 13:35:27]: Process Ended
+[2015/08/28 13:35:25]: Process Started
+[2015/08/28 13:35:25]: Report key 20150828133522_59: 
+[2015/08/28 13:35:25]: Report key 20150828133522_59: RPT_FORMAT     : PDF 
+[2015/08/28 13:35:25]: Report key 20150828133522_59: RPT_NUM_RECORD : 1 
+[2015/08/28 13:35:25]: Report key 20150828133522_59: 
+[2015/08/28 13:35:27]: 
+[2015/08/28 13:35:27]: Process Ended
+[2015/08/28 13:35:27]: Process Started
+[2015/08/28 13:35:27]: Report key 20150828133522_59: Successed
+[2015/08/28 13:35:27]: 
+[2015/08/28 13:35:27]: Process Ended

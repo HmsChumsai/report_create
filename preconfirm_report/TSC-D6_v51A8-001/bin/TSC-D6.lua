@@ -81,6 +81,10 @@ function process()
 	common.InsertRecords(db_file, log_file, table_name_port, portList, debug_mode)
 	common.InsertRecords(db_file, log_file, table_name_set,setList,debug_mode)
 	common.InsertRecords(db_file, log_file, table_name_set50,set50List,debug_mode)
+  
+  common.reportFinish()
+  common.setNumRecord(#depositList)
+
 end
 
 function CreateSchema()
@@ -204,12 +208,10 @@ function getPortList()
 			local pos = pe:getQuantity() 
 			local avg_price = pe:getAvgePriceNet() 
 			local amount=pe:getPosBookValue()
-			print("amount",amount)
 			local ok, mkt_value = pcall( pe.getLiqMarketValue, pe )
 			mkt_value = ok and mkt_value or 0
-      local pl = ok and mkt_value-amount or 0
-			
-			print("mkt_value",mkt_value)
+      local pl = ok and amount-mkt_value or 0
+
 				
 			if pos > 0 then  -- Filters data 
 				local seq = ''

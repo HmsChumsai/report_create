@@ -83,7 +83,7 @@ order by order_no]]>
 	<columnHeader>
 		<band height="22">
 			<staticText>
-				<reportElement uuid="767cf0a9-1a22-4c2c-b605-7cd522dbe63b" x="268" y="0" width="93" height="22"/>
+				<reportElement uuid="767cf0a9-1a22-4c2c-b605-7cd522dbe63b" x="268" y="0" width="74" height="22"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
@@ -104,7 +104,7 @@ order by order_no]]>
 				<text><![CDATA[Order#]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="ae89ef38-3f92-4afe-8c6d-14dc88c3ac33" x="192" y="0" width="59" height="22"/>
+				<reportElement uuid="ae89ef38-3f92-4afe-8c6d-14dc88c3ac33" x="209" y="0" width="59" height="22"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="8" isBold="true"/>
 				</textElement>
@@ -191,21 +191,21 @@ order by order_no]]>
 				<textFieldExpression><![CDATA[$F{stock}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="934d54cf-11e4-466d-902c-68bfc748e841" x="192" y="0" width="59" height="11"/>
+				<reportElement uuid="934d54cf-11e4-466d-902c-68bfc748e841" x="192" y="0" width="76" height="11"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{vol}== null ? "" :(new DecimalFormat("###,###,##0")).format($F{vol})]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="e1037af8-85f9-4735-9a22-bb0f2a656e98" x="251" y="0" width="73" height="11"/>
+				<reportElement uuid="e1037af8-85f9-4735-9a22-bb0f2a656e98" x="268" y="0" width="48" height="11"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{price}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement uuid="f2ffd1c7-7fab-450f-80f0-6df7bea6b2c0" x="324" y="0" width="56" height="11"/>
+				<reportElement uuid="f2ffd1c7-7fab-450f-80f0-6df7bea6b2c0" x="316" y="0" width="64" height="11"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font size="8"/>
 				</textElement>

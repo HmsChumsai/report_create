@@ -83,6 +83,10 @@ function process()
 	--common.InsertRecords(db_file, log_file, table_name_port, portList, debug_mode)
 	common.InsertRecords(db_file, log_file, table_name_set,setList,debug_mode)
 	common.InsertRecords(db_file, log_file, table_name_set50,set50List,debug_mode)
+
+  common.reportFinish()
+  common.setNumRecord(#depositList)
+
 end
 
 function CreateSchema()

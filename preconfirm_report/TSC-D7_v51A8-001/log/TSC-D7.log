@@ -1,0 +1,202 @@
+[2015/08/28 13:58:37]: Process Started
+[2015/08/28 13:58:37]: Report key 20150828135837_81: DECIDE param : --depositid 1584 --format PDF --from 2015-06-04T17:00:00 --to 2015-06-05T16:00:00
+[2015/08/28 13:58:37]: 
+[2015/08/28 13:58:37]: Process Ended
+[2015/08/28 13:58:37]: Process Started
+[2015/08/28 13:58:37]: Report key 20150828135837_81: depositId: 1584
+[2015/08/28 13:58:37]: Report key 20150828135837_81: entryFrom: 2015-06-04T17:00:00
+[2015/08/28 13:58:37]: Report key 20150828135837_81: entryTo: 2015-06-05T16:00:00
+[2015/08/28 13:58:37]: Report key 20150828135837_81: log_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D7_v51A8-001/log/TSC-D7.log
+[2015/08/28 13:58:37]: Report key 20150828135837_81: db_file: /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D7_v51A8-001/db/TSC-D7_20150828135837_81.db
+[2015/08/28 13:58:37]: Report key 20150828135837_81: format: PDF
+[2015/08/28 13:58:37]: Report key 20150828135837_81: ----------- Start getOrderList--------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642618	BBL	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	1000
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642622	THAI	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	ATC
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	200
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642583	PTT	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	200
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642584	PTT	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	200
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642586	PTT	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	500
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642587	PTT	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	300
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642588	PTT	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	20000
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642592	PTT	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	500
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642593	PTT	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	500
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642594	PTT	-------------
+[2015/08/28 13:58:37]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:37]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:37]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:37]: Report key 20150828135837_81: match_qty	5000
+[2015/08/28 13:58:37]: Report key 20150828135837_81: -----------------Start Order :	100642596	PTT	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	100
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642597	TOP	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	200
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642598	TOP	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	300
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642599	TOP	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	300
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642600	TOP	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	400
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642601	TOP	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	400
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642602	TOP	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	1000
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642611	NPARK	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	1000
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642612	NPARK	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	1000
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642613	NPARK	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	1000
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642614	NPARK	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	500
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642595	PTT	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642589	BBL	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642590	BBL	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642527	BBL	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642528	BBL	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642529	BBL	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642530	BBL	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642585	PTT	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642620	THAI	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: match_qty	0
+[2015/08/28 13:58:38]: Report key 20150828135837_81: -----------------Start Order :	100642621	THAI	-------------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: orderLimitType	Limit
+[2015/08/28 13:58:38]: Report key 20150828135837_81: All Deal Seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: {}
+[2015/08/28 13:58:38]: Report key 20150828135837_81: set seq
+[2015/08/28 13:58:38]: Report key 20150828135837_81: { PTT=1 }
+[2015/08/28 13:58:38]: Report key 20150828135837_81: { BBL=1, NPARK=2, PTT=3, THAI=4, TOP=5 }
+[2015/08/28 13:58:38]: Report key 20150828135837_81: ----------- End getOrderList--------
+[2015/08/28 13:58:38]: Report key 20150828135837_81: ----------------- End getPortList ------------------
+[2015/08/28 13:58:41]: 
+[2015/08/28 13:58:41]: Process Ended
+[2015/08/28 13:58:41]: Process Started
+[2015/08/28 13:58:41]: Report key 20150828135837_81: Create a report database completed.
+[2015/08/28 13:58:41]: 
+[2015/08/28 13:58:41]: Process Ended
+[2015/08/28 13:58:41]: Process Started
+[2015/08/28 13:58:41]: Report key 20150828135837_81:  DATABASE FILE   : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D7_v51A8-001/db/TSC-D7_20150828135837_81.db 
+[2015/08/28 13:58:41]: Report key 20150828135837_81:  LAYOUT_FILE     : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D7_v51A8-001/layout/TSC-D7.jasper 
+[2015/08/28 13:58:41]: Report key 20150828135837_81:  PDF FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/out/report_20150828/pdf/TSC-D7_20150828135837_81.pdf
+[2015/08/28 13:58:41]: Report key 20150828135837_81:  LOG FILE        : /usr/local/decide/cust/decide_report/etc/../rpt/preconfirm_report/TSC/TSC-D7_v51A8-001/log/TSC-D7.log
+[2015/08/28 13:58:41]: Report key 20150828135837_81: Jasper file : TSC-D7.jasper
+[2015/08/28 13:58:41]: Report key 20150828135837_81: DB file     : TSC-D7_20150828135837_81.db
+[2015/08/28 13:58:41]: Report key 20150828135837_81: Report type : PDF
+[2015/08/28 13:58:41]: Report key 20150828135837_81: Out file    : TSC-D7_20150828135837_81.pdf
+[2015/08/28 13:58:42]: Report key 20150828135837_81: log4j:WARN No appenders could be found for logger (net.sf.jasperreports.extensions.ExtensionsEnvironment).
+[2015/08/28 13:58:42]: Report key 20150828135837_81: log4j:WARN Please initialize the log4j system properly.
+[2015/08/28 13:58:43]: 
+[2015/08/28 13:58:43]: Process Ended
+[2015/08/28 13:58:41]: Process Started
+[2015/08/28 13:58:41]: Report key 20150828135837_81: 
+[2015/08/28 13:58:41]: Report key 20150828135837_81: RPT_FORMAT     : PDF 
+[2015/08/28 13:58:41]: Report key 20150828135837_81: RPT_NUM_RECORD : 1 
+[2015/08/28 13:58:41]: Report key 20150828135837_81: 
+[2015/08/28 13:58:43]: 
+[2015/08/28 13:58:43]: Process Ended
+[2015/08/28 13:58:43]: Process Started
+[2015/08/28 13:58:43]: Report key 20150828135837_81: Successed
+[2015/08/28 13:58:43]: 
+[2015/08/28 13:58:43]: Process Ended

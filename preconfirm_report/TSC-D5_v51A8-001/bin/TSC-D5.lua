@@ -65,6 +65,9 @@ function process()
 	common.InsertRecords(db_file, log_file, table_name_total, totalList, debug_mode)
 	common.InsertRecords(db_file, log_file, table_name_deposit, depositList, debug_mode)
 	common.InsertRecords(db_file, log_file, table_name_order, orderList, debug_mode)
+  
+  common.reportFinish()
+  common.setNumRecord(#depositList)
 	
 end
 

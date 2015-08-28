@@ -29,7 +29,7 @@ group by user_id,client_id,time]]>
 		<band splitType="Stretch"/>
 	</background>
 	<pageHeader>
-		<band height="106">
+		<band height="81">
 			<staticText>
 				<reportElement uuid="46aa03d0-3742-414e-9661-e6366fdfcddf" x="0" y="57" width="87" height="20"/>
 				<textElement verticalAlignment="Middle"/>
@@ -87,7 +87,7 @@ group by user_id,client_id,time]]>
 				<text><![CDATA[Audit Customer Report]]></text>
 			</staticText>
 			<line>
-				<reportElement uuid="c750e37f-24b9-4ad1-953f-81d41e5b4332" x="0" y="78" width="555" height="1"/>
+				<reportElement uuid="c750e37f-24b9-4ad1-953f-81d41e5b4332" x="0" y="77" width="555" height="1"/>
 				<graphicElement>
 					<pen lineWidth="0.5"/>
 				</graphicElement>
@@ -98,28 +98,32 @@ group by user_id,client_id,time]]>
 				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 			<line>
-				<reportElement uuid="53071d11-0807-4ada-8426-a6b2eb346f2c" x="0" y="80" width="555" height="1"/>
+				<reportElement uuid="53071d11-0807-4ada-8426-a6b2eb346f2c" x="0" y="79" width="555" height="1"/>
 				<graphicElement>
 					<pen lineWidth="0.5"/>
 				</graphicElement>
 			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="29">
 			<staticText>
-				<reportElement uuid="01aff58e-de1c-4de2-98f6-17bb566f3f8e" x="136" y="81" width="100" height="20"/>
+				<reportElement uuid="01aff58e-de1c-4de2-98f6-17bb566f3f8e" x="136" y="4" width="100" height="20"/>
 				<textElement verticalAlignment="Middle"/>
 				<text><![CDATA[OLD]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="38b5e7a9-d805-44b0-af3b-3ad4657c94d3" x="288" y="82" width="100" height="20"/>
+				<reportElement uuid="38b5e7a9-d805-44b0-af3b-3ad4657c94d3" x="288" y="4" width="100" height="20"/>
 				<textElement verticalAlignment="Middle"/>
 				<text><![CDATA[NEW]]></text>
 			</staticText>
 			<staticText>
-				<reportElement uuid="ae03b9bc-9bbf-4509-805e-bf6d9a39a829" x="434" y="82" width="100" height="20"/>
+				<reportElement uuid="ae03b9bc-9bbf-4509-805e-bf6d9a39a829" x="434" y="4" width="100" height="20"/>
 				<textElement verticalAlignment="Middle"/>
 				<text><![CDATA[TIME]]></text>
 			</staticText>
 		</band>
-	</pageHeader>
+	</columnHeader>
 	<detail>
 		<band height="81" splitType="Stretch">
 			<subreport>
@@ -162,7 +166,7 @@ group by user_id,client_id,time]]>
 				<text><![CDATA[Name :]]></text>
 			</staticText>
 			<textField>
-				<reportElement uuid="79bffce1-279b-4bdb-ba07-402cb1ab7656" x="245" y="12" width="73" height="20"/>
+				<reportElement uuid="79bffce1-279b-4bdb-ba07-402cb1ab7656" x="245" y="12" width="176" height="20"/>
 				<textElement verticalAlignment="Middle"/>
 				<textFieldExpression><![CDATA[$F{client_name}]]></textFieldExpression>
 			</textField>
@@ -174,7 +178,7 @@ group by user_id,client_id,time]]>
 			<line>
 				<reportElement uuid="97f89806-8721-4bcc-a080-4ec4192eb92b" x="0" y="0" width="555" height="1"/>
 				<graphicElement>
-					<pen lineWidth="0.5" lineStyle="Dashed"/>
+					<pen lineStyle="Dashed"/>
 				</graphicElement>
 			</line>
 		</band>
