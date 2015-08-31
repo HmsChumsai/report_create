@@ -371,13 +371,15 @@ function setSeq(orderList,port_seq_sell,port_seq_buy)
 	print(utils.prettystr(context_sell))
 	print(utils.prettystr(context_buy))
 	for i,j in pairs(orderList) do
+		print("i : ",i)
+		print("j : ",utils.prettystr(j))
 		local buy_sell = j[4][2]
 		local stock = j[3][2]
 		if buy_sell=="Buy" then 
 			--if context_buy[j[3][2]..j[8][2]] and context_buy[j[3][2]..j[8][2]] ~= nil then
 			if context_buy[stock] and context_buy[stock] ~= nil then
 				-- j[11][2]=seq
-				j[11][2] = context_buy[stock]
+				j[10][2] = context_buy[stock]
 			
 			else
 				--j[11][2] = ''
@@ -385,7 +387,7 @@ function setSeq(orderList,port_seq_sell,port_seq_buy)
 		else
 			--if context_sell[j[3][2]..j[8][2]] and context_sell[j[3][2]..j[8][2]] ~= nil then
 			if context_sell[stock] and context_sell[stock] ~= nil then
-				j[11][2] = context_sell[stock]
+				j[10][2] = context_sell[stock]
 			
 			else
 				--j[11][2] = ''
